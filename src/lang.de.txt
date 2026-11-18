@@ -1,0 +1,387 @@
+[Strom]
+Netzwerk
+Alle
+Materialien
+Waffen
+Munition
+Essen
+Medizin
+Rüstung
+Platzierbares
+Taschen
+Sonstiges
+Speichernetzwerk
+Nach Namen suchen…
+Sortieren
+Typ
+Menge
+Name
+Menge entnehmen
+Kernfilter
+Genaue Menge entnehmen (Gegenstand wählen, Zahl eingeben)
+Kein Zugangsterminal in der Nähe und nicht in Reichweite eines unendlichen AE-Terminals
+Nichts eingelagert: nicht genug Platz im Netzwerk
+Du trägst nichts, was es im Netzwerk schon gibt (verschlossene Taschen werden übersprungen)
+{1} Gegenstände ({0} Arten) im Speichernetzwerk eingelagert
+ (einiges passte nicht und blieb in deiner Tasche)
+Speichernetzwerk: {1} × {0} fehlten und wurden dir zurückgegeben
+Die Menge muss mindestens 1 sein
+Eingelagert: {0} ×{1}
+{0} nehmen
+{0} einlagern
+{0} im Netzwerk
+{0} in diesem Stapel
+OK (Enter)
+Abbrechen (Esc)
+Zahl eingeben, Enter bestätigt
+Mittlere Maustaste auf Gegenstand: genaue Menge  |  Tasche oder Kleidung hineinlegen, um sie ins Netzwerk zu leeren
+Gleiche einlagern
+Alles einlagern
+Nochmal drücken
+Nichts zum Einlagern (Waffen, Rüstung, Munition und Taschen bleiben unberührt)
+{0} Arten mit insgesamt {1} Gegenständen werden eingelagert (Waffen, Rüstung, Munition und Taschen bleiben). Innerhalb von 5 s erneut [Alles einlagern] drücken zum Bestätigen
+{0} ist gesperrt und wurde nicht angetastet
+{0} ist leer
+{0} geleert: {1} Arten, {2} Gegenstände eingelagert
+Im Mehrspielermodus kann nur der Host das Speichernetzwerk nutzen
+Behältername: {0}
+(unbenannt)
+Umbenennen
+Namen löschen
+Umbenannt: {0}
+Name gelöscht
+Kabel ausgeblendet (beim Platzieren von Gebäuden sichtbar; {0} drücken, um sie wieder anzuzeigen)
+Kabel eingeblendet
+Im Mehrspielermodus kann nur der Host den Kreativmodus nutzen
+Kreativmodus an: kostenloses Sofortbauen, unverwundbar, kein Hunger und Durst
+Kreativmodus aus
+{0} ×{1} gegeben
+Kreativmodus
+Kreativmodus ausschalten
+Kreativmodus einschalten
+Kostenloses Sofortbauen · unverwundbar · kein Hunger und Durst
+Gegenstand nach Name oder ID suchen…
+Dieser Mod
+Einträge {0}–{1} von {2} (mit dem Mausrad scrollen)
+Keine passenden Gegenstände
+Auto
+Skalierung: {0}
+{0} von {1} Arten angezeigt
+Keine passenden Gegenstände ({0} Arten im Netzwerk)
+Wähle zuerst oben einen Gegenstand
+{0}: {1} im Netzwerk
+Stapel
+Ins Inventar nehmen
+{0} ×{1} entnommen
+ (Inventar voll oder nicht genug)
+Nichts entnommen: Inventar ist vielleicht voll
+Kernfilter: wähle die einzigen Typen, die dieser Kern annimmt (keine = nimmt alles an)
+Kühlschrank ({0:0.#} m vom Terminal): automatisches Einlagern nur für Essen, nie für Medizin
+#{0} Speicherkern ({1:0.#} m vom Terminal, {2} Stapel / {3} Plätze)
+Beliebig
+Kein Speicherkern in Reichweite
+Eingelagert wird zuerst in Kerne mit passendem Filter, dann in Kerne ohne Filter; Kerne mit unpassendem Filter werden übersprungen.
+{0} drücken, um das Speichernetzwerk zu öffnen
+Kein Zugriffsterminal in der Nähe
+Zugriffsterminal hat keinen Strom: an ein Stromnetz anschließen ({0:0} W)
+Online, aber kein Speicherkern innerhalb von {0:0} m: baue einen, um mit dem Einlagern zu beginnen
+Online · {0} Kerne, {1} Kühlschränke ({2} Plätze) · {3} Gegenstandsarten
+Fehler beim Durchsuchen des Netzwerks: {0}
+Fernverbindung · {0} Kerne
+ ({0} nicht gefunden)
+Speichernetzwerk ({0} Kerne + {1} Kühlschränke)
+Speichernetzwerk ({0} Kerne)
+Das Behälterfenster des Spiels wurde nicht gefunden
+Speicherkerne sind voll; Gegenstand zurückgegeben
+Noch kein Unendliches AE-Terminal verbunden: baue eins neben deine Speicherkerne, versorge es mit Strom und geh einmal in seine Nähe
+Unendliches AE-Terminal nicht gefunden (wurde vielleicht abgebaut)
+Unendliches AE-Terminal hat keinen Strom; Fernzugriff nicht möglich
+Netzanschluss: speist {0:0} W ins Netz
+Netzanschluss: lädt Fahrzeuge mit {0:0} W
+Netzanschluss: Leerlauf, Auto unter {0:0}% (zum Fahren reserviert)
+Netzanschluss: Leerlauf, Auto voll geladen ({0:0} Wh)
+Netzanschluss: Leerlauf, kein Überschuss zum Laden und kein Mangel
+Netzanschluss: kein Fahrzeug innerhalb von {0:0} m
+[{0}]
+[{0}] ({1} Fahrzeuge in Reichweite, das nächste wird bedient)
+Fahrzeug
+Das nächste Unendliche AE-Terminal ist {0:0} m entfernt, außerhalb seiner Reichweite von {1:0} m: baue in der Nähe ein weiteres
+ · {0} Unendliche AE-Terminals per Kabel verbunden
+Flüssigkeitspumpe: kein Strom
+Flüssigkeitspumpe: keine Flüssigkeitsquelle (Tank usw.) innerhalb von {0:0} m
+Flüssigkeitspumpe: kein Flüssigkeitstank, kein leerer Kanister und keine Flasche innerhalb von {0:0} m (Quelle hat {1:0.#} L)
+Flüssigkeitspumpe: füllt {0}, {1:0.#} L/s | Quelle noch {2:0.#} L | {3} Behälter mit Platz
+Flüssigkeitspumpe: Behälter sind voll oder können diese Flüssigkeit nicht aufnehmen (Quelle hat {0:0.#} L)
+Treibstoffgenerator: nicht an ein Stromnetz angeschlossen
+Treibstoffgenerator: Leerlauf, Netz hat genug Strom (Treibstoff {0:0.#} L)
+Treibstoffgenerator: kein Treibstoff — lege volle Kanister in eine Kiste innerhalb von {0:0} m
+Treibstoffgenerator: kein Treibstoff — baue einen Flüssigkeitstank oder stelle volle Kanister innerhalb von {0:0} m ab
+Flüssigkeitstank: {0:0.#} / {1:0} L ({2})
+leer
+Automatisierung
+Auto-Bergbaumaschine: kein Strom
+Auto-Holzfäller: kein Strom
+Wassersammler: kein Strom
+Ofenlader: kein Strom
+Baumpflanzer: kein Strom
+Auto-Bergbaumaschine: kein Strom (Versorgung {0:0}%)
+Auto-Holzfäller: kein Strom (Versorgung {0:0}%)
+Wassersammler: kein Strom (Versorgung {0:0}%)
+Baumpflanzer: kein Strom (Versorgung {0:0}%)
+Ofenlader: kein Strom (Versorgung {0:0}%)
+ | wenig Strom {0:0}%, läuft langsamer
+Drohnenstation: kein Strom
+Drohnenstation: kein Lagerplatz (Speichernetzwerk anschließen oder eine Kiste innerhalb von 2 m aufstellen)
+Drohnenstation: nichts am Boden innerhalb von {0:0} m | {1} gesammelt
+Drohnenstation: holt {0} | {1} Gegenstände in Reichweite | {2} gesammelt
+Drohnenstation: Lager voll, Gegenstand neben der Station abgelegt
+Baumpflanzer: {0} Bäume in Reichweite (max. {1}), {2} wachsen noch
+Baumpflanzer: keine Zweige oder kein Holz im Speichernetzwerk dieses Stromnetzes (oder in Kisten innerhalb von 2 m); jeder Baum braucht 1 Zweig (oder 1 Holz) | {0} Bäume in Reichweite, {1} wachsen
+Baumpflanzer: kein freier Boden in Reichweite | {0} Bäume, {1} wachsen
+Baumpflanzer: braucht Zweige
+Baumpflanzer: konnte hier nicht pflanzen, versucht eine andere Stelle
+Baumpflanzer: Baum gepflanzt | {0} in Reichweite, {1} wachsen
+Auto-Bergbaumaschine: kein Erzvorkommen innerhalb von {0:0} m
+Auto-Bergbaumaschine: Prospektion, in etwa {0:0} s erscheint ein neues Erzvorkommen
+Automatischer Bergbau: Netz/Kisten voll, Abbau pausiert (geht weiter, sobald Platz frei ist)
+Auto-Bergbaumaschine: kein Platz für Erz (Speichernetzwerk anschließen oder eine Kiste innerhalb von 2 m aufstellen)
+Auto-Bergbaumaschine: baut {0} ab, noch etwa {1:0} | {2} abgebaut ({3} Vorkommen in Reichweite)
+Auto-Holzfäller: keine Bäume innerhalb von {0:0} m
+Automatischer Holzfäller: Netz/Kisten voll, Fällen pausiert (geht weiter, sobald Platz frei ist)
+Auto-Holzfäller: kein Platz für Holz (Speichernetzwerk anschließen oder eine Kiste innerhalb von 2 m aufstellen)
+Auto-Holzfäller: fällt | {0} gesammelt ({1} Bäume in Reichweite)
+Wassersammler: kein Flüssigkeitstank (am Stromnetz oder innerhalb von 2 m)
+Wassersammler: Tanks sind voll oder enthalten eine andere Flüssigkeit
+Wassersammler: {0:0.##} L/s Rohwasser{1}
+ (bei Regen doppelt)
+Ofenlader: kein Stein- oder Elektroofen innerhalb von {0:0} m
+Ofenlader: kein Speichernetzwerk und keine Kiste (an ein Stromnetz anschließen oder eine Kiste innerhalb von 2 m aufstellen)
+Ofenlader: {0} Öfen | beladen {1}, Treibstoff {2}, entnommen {3} | insgesamt entnommen {4}
+Kein Flüssigkeitstank für diese Flüssigkeit; zurückgegeben
+ + {0} Flüssigkeitstank(s)
+Flüssigkeitstanks: {0} (Kapazität {1:0} L):
+{0} {1:0.#} L ▸ in meine Kanister füllen
+{1:0.#} L {0} aus den Tanks in {2} Behälter gefüllt
+Kein leerer Kanister und keine Flasche im Rucksack, die diese Flüssigkeit aufnehmen kann
+Treibstoffgenerator: läuft {0:0} W | Treibstoff {1:0.#} L ({2})
+Flächenladegerät hat keinen Strom
+Flächenladegerät: bereit
+Flächenladegerät: keine Batterien dabei
+Flächenladegerät: lädt ({0}/{1} Batterien)
+Flächenladegerät: alle {0} Batterien voll
+Stromnetz-Übersicht
+{0} zum Schließen
+Schließt sich, wenn du das Terminal verlässt
+Baue und verbinde zuerst ein Stromüberwachungsterminal.
+Baumenü → Elektrizität → Stromüberwachungsterminal
+Noch kein Stromnetz.
+Baue einen Generator oder ein Solarmodul und schließe ein Gerät an.
+…{0} weitere Netze nicht angezeigt
+Zeiten in Spielstunden
+▲ Mangel {0:0}%
+Keine Last
+● Versorgung OK
+Netz {0}
+Erzeugung {0} · Speicher {1} · Verbraucher {2} · Masten {3}
+Solar {0} ({1})
+{0} {1} ({2})
+Wind
+Thermo
+Treibstoffgen.
+Kurbel
+Fahrzeuganschluss
+Erw. Solar
+Solar
+Generatoren {0} ({1}/{2} laufen)
+Erzeugung
+Last
+{0} bei Volllast
+Speicher
+Lädt {0}
+Entlädt {0}
+Leerlauf
+Aus
+Mangel {0:0}%
+OK
+…{0} weitere Geräte
+…{0} weitere
+ ({0} unterversorgt in diesem Netz)
+{0}: Übertaktungsmodul einbauen   Shift+{0}: Effizienzmodul einbauen
+{0}: Übertaktungsmodul einbauen
+Shift+{0}: Effizienzmodul einbauen
+{1} aus {0} entfernt
+{1} in {0} eingebaut
+Modul konnte nicht entnommen werden
+Maschine
+Passt in Elektroofen, 3D-Drucker, Batterieladegerät, Elektroheizung oder Elektroherd: Tempo ×{0:0.##}, Strom ×{1:0.##}. Neben die Maschine stellen und {2} zum Einbauen drücken; erneut drücken zum Entfernen.
+Passt in Elektroofen, 3D-Drucker, Batterieladegerät, Elektroheizung oder Elektroherd: Strom ×{0:0.##}, Tempo ×{1:0.##}. Neben die Maschine stellen und Shift+{2} zum Einbauen drücken.
+leer in ~{0:0.#} h
+voll in ~{0:0.#} h
+voll
+stabil
+Netz {0} Strommangel: nur {1:0}% des Bedarfs gedeckt
+Netz {0} Speicher bei {1:0}%, {2}
+Netz {0} Speicher {1:0}%: Generatoren automatisch gestartet
+Netz {0} Speicher {1:0}%: Generatoren automatisch gestoppt
+Kritisch
+Normal
+Niedrig
+Übertaktung
+Effizienz
+Zu erschöpft — erst ausruhen, dann kurbeln
+Erzeuge {0:0} W ({1} loslassen zum Stoppen)
+{0} halten, um den Generator zu kurbeln
+Übertaktungsmodul
+Effizienzmodul
+{0} drücken, um {1} zu entfernen
+{0} drücken für ein Übertaktungsmodul, Shift+{0} für ein Effizienzmodul
+Kein Übertaktungs-/Effizienzmodul dabei (im Herstellungsmenü herstellen)
+{0} eingebaut: Tempo ×{1:0.##}, Strom ×{2:0.##}
+{0} entfernt
+Kein {0} dabei
+Beschleunigt eine Maschine, erhöht aber ihren Stromverbrauch stark. Neben Elektroofen, 3D-Drucker oder Batterieladegerät stellen und {0} zum Einbauen drücken.
+Senkt den Stromverbrauch einer Maschine bei etwas weniger Tempo. Neben Elektroofen, 3D-Drucker oder Batterieladegerät stellen und Shift+{0} zum Einbauen drücken.
+Fahrzeuge
+Auf dem Hubschrauberlandeplatz ist ein Hubschrauber erschienen
+Hubschrauber: Treibstoff {0:0.#} / {1:0} L | Munition {2} | {3} zum Einsteigen (Shift+{3}: aus Kanistern im Rucksack tanken)
+Der Hubschrauber hat keinen Treibstoff: auf einem versorgten Landeplatz parken oder Shift+{0} drücken, um aus Kanistern im Rucksack zu tanken
+Kein Kanister mit Benzin oder Diesel im Rucksack
+{0:0.#} L getankt (Tank {1:0.#} / {2:0} L)
+Kein Treibstoff mehr, automatische Landung
+Im Flug: Treibstoff {0:0.#} L | Munition {1} | WASD fliegen, linke Maustaste halten zum Feuern, {2} landen
+Keine Munition: 5.56mm- oder 7.62x39mm-Patronen mitnehmen
+{0} Gefährte(n) mit eingestiegen
+Hubschrauber: Treibstoff {0:0.#} / {1:0} L | einsteigen, Motor starten, Leertaste zum Abheben
+Starte den Motor, bevor du abhebst
+Hubschrauber: Leertaste zum Abheben, sobald der Motor läuft
+Im Flug: WASD bewegen, linke Maustaste halten für das MG, Leertaste landen | Höhe {0:0}%
+Keine Munition: 5.56mm- oder 7.62x39mm-Patronen in den Laderaum oder Rucksack legen
+In der Luft kannst du nicht aussteigen – erst mit der Leertaste landen
+Im Flug lässt sich der Motor nicht abstellen – erst landen
+Starte zuerst mit {0} den Motor
+Der Motor startet – warte, bis der Rotor hochgedreht hat
+Kein Treibstoff mehr, der Motor ist aus
+Hubschrauber
+Läuft
+Startet {0:0}%
+Motor
+Treibstoff
+Suchscheinwerfer
+An
+Höhe {0:0}%   Tempo {1:0.#} m/s
+{0} Motor   Leertaste Start/Landung   {1} Scheinwerfer   {2} aussteigen   LMB MG
+Verteidigung
+[Verteidigung] 
+Nicht genug Strom
+Nicht mit einem Speichernetzwerk verbunden
+Wird vom Host ausgeführt
+Schockt ({0})
+Zu wenig Strom (schockt nicht)
+{0}: {1:0} W
+Schläft
+Wachsam (Alarmturm)
+Wachsam (eigene Erkennung)
+Suchscheinwerfer-Alarmturm: {0} Feinde erkannt ({1})
+Patrouilliert, deckt {0} ab
+Alarm ({0}, {1}) – {2} geweckt, Türen {3}
+MG-Lauf
+EM-Lauf
+Railgun-Lauf
+MG
+EM-Kanone
+Railgun
+EM-Geschoss
+MG-Lauf für die schwere Geschützstellung. Stell dich neben die Stellung und drück {0}, um ihn einzubauen; drück erneut, um ihn auszubauen. Reichweite {1:0} m. Verschießt 5.56/7.62/.45/9mm/.22-Munition aus dem Lagernetz, {2:0}–{3:0} Schaden pro Schuss.
+EM-Lauf für die schwere Geschützstellung. Stell dich neben die Stellung und drück {0}, um ihn einzubauen; drück erneut, um ihn auszubauen. Reichweite {1:0} m. Erzeugt elektromagnetische Geschosse aus Strom und braucht keine Munition: {2:0} Schaden pro Schuss, {3:0.#} Schuss pro Sekunde, {4:0} W beim Feuern.
+Railgun-Lauf für die schwere Geschützstellung. Stell dich neben die Stellung und drück {0}, um ihn einzubauen; drück erneut, um ihn auszubauen. Reichweite {1:0} m. Lädt alle {2:0.#} s einen Schuss mit {3:0} Schaden, der bis zu {4} Feinde in einer Linie durchschlägt. Keine Munition nötig; beim Laden {5:0} W.
+Feuert EM-Geschosse ({0:0} W)
+Railgun gefeuert ({0} durchschlagen)
+Lädt {0:0}% (Railgun)
+Schwere Geschützstellung: keine MG-Munition (im Lagernetz wird 5.56/7.62/.45/9mm/.22-Munition benötigt)
+{0}: {1} ausbauen (Magazin {2} x{3})
+{0}: {1} einbauen
+Schwere Geschützstellung: Du brauchst einen Lauf im Inventar oder im Lagernetz, um ihn einzubauen
+Im Mehrspielermodus kann nur der Host Läufe ein- und ausbauen
+{0} aus der schweren Geschützstellung ausgebaut
+{0} in die schwere Geschützstellung eingebaut
+Weder bei dir noch im Lagernetz ist ein Lauf
+(Magazin {0} x{1})
+{0}: zu {1} wechseln   Shift+{0}: ausbauen
+{0} gegen {1} getauscht
+Kein Lauf
+, beleuchtet +{0:0}
+Feuert (MG {0} x{1})
+Keine Munition
+Tesla
+Wand
+Wand (Wiederaufbau)
+Material fehlt ({0})
+Repariert ({0} {1:0}%)
+{0} x{1}
+Ziel verdeckt
+Wachsam (MG {0} x{1})
+Schläft ({0})
+Wachsam ({0})
+Erweitertes Solarmodul
+Stromüberwachungsterminal
+Kleine Windturbine
+Thermoelektrischer Generator
+Erweiterter Energiespeicher
+Generatorsteuerung
+Kurbelgenerator
+Schweres Generatoraggregat
+Fahrzeug-Netzanschluss
+Speicherkern
+Speicher-Zugriffsterminal
+Unendliches AE-Terminal
+Flächenladegerät
+Treibstoffgenerator
+Flüssigkeitspumpe
+Flüssigkeitstank
+Auto-Bergbaumaschine
+Auto-Holzfäller
+Wassersammler
+Ofenlader
+Auto-Baumpflanzer
+Drohnenstation
+Hochspannungsmast
+Automatiktür (groß)
+Automatiktür (klein)
+Automatiktür (groß, vertikal)
+Automatiktür (klein, vertikal)
+Hubschrauberlandeplatz
+Hochspannungszaun
+Suchscheinwerfer-Alarmturm
+Schwere Geschützstellung
+Teslaspule
+Automatische Reparaturstation
+Hocheffizientes Solarmodul mit {0}-facher Leistung eines normalen Moduls. Bei Regen und in Innenräumen sinkt die Leistung trotzdem.
+Zeigt Erzeugung, Last und Speicher seines Netzes. Hingehen zum Ansehen, oder per Hotkey die Stromnetz-Übersicht öffnen.
+Erzeugt Strom aus Wind, bis zu {0} W, Tag und Nacht. Bei Flaute fast nichts, bei Regen etwas mehr.
+Neben Öfen oder Generatoren (innerhalb von {0} m) aufstellen, um Abwärme in Strom umzuwandeln: {1} W pro laufender Wärmequelle, bis zu {2}.
+Speichert {0} Wh, Lade-/Entladeleistung bis {1} W ({2}-fach ein normaler Energiespeicher).
+Startet die Stirlinggeneratoren seines Netzes, wenn der Speicher unter {0}% fällt, und stoppt sie über {1}%, um Treibstoff zu sparen. Das Netz braucht einen Energiespeicher.
+Daneben stellen und H halten, um {0} W zu erzeugen. Kostet Ausdauer. Notlösung, wenn es weder Treibstoff noch Sonne gibt.
+Verbrennt denselben Treibstoff wie ein Stirlinggenerator für {0} W ({1}×), verbraucht ihn aber {2}× so schnell. Laut und lockt Zombies in der Nähe an.
+Verbindet Fahrzeuge innerhalb von {0} m mit dem Netz: lädt das Auto mit überschüssigem Strom voll, und wenn Erzeugung und Speicher die Last nicht decken, gleicht das Auto die Lücke aus (bis zu {1} W), bis es auf {2}% ist. Daneben stellen, um den Status zu sehen.
+Speichereinheit für das Speichernetzwerk, so groß wie die größte Kiste im Spiel. Mehr bauen für mehr Platz. Braucht weder Strom noch Kabel: innerhalb von {0} m eines Strommasts oder eines versorgten Geräts gebaut, tritt er diesem Netz automatisch bei. Jedes Zugriffsterminal und Unendliche AE-Terminal im selben Netz kann seine Gegenstände dann sehen und entnehmen, egal wie weit. Kerne innerhalb von {1} m eines Terminals zählen auch. Lässt sich auch direkt wie eine Kiste öffnen.
+Daneben stellen und N drücken, um das Speichernetzwerk zu öffnen: Gegenstände aus allen Speicherkernen und Flüssigkeitstanks desselben Stromnetzes suchen, filtern und entnehmen, egal wie weit (ein Kern oder Tank tritt einem Netz bei, wenn er innerhalb von {0} m eines Strommasts oder versorgten Geräts gebaut wird), dazu Kerne innerhalb von {1} m. Braucht Strom ({2} W); ohne ist das Netzwerk offline.
+Mit Strom versorgt ({0} W) kannst du überall innerhalb von {1} m N drücken, um das Speichernetzwerk aus der Ferne zu öffnen. Es sieht alle Speicherkerne und Flüssigkeitstanks seines Stromnetzes, egal wie weit (ein Kern oder Tank tritt einem Netz bei, wenn er innerhalb von {2} m eines Strommasts oder versorgten Geräts gebaut wird), dazu Kerne innerhalb von {3} m. Für noch größere Entfernung dort ein weiteres Terminal bauen und per Kabel mit demselben Netz verbinden; Terminals verschiedener Netze sind getrennte Netzwerke.
+An ein Netz anschließen ({0} W). Solange du innerhalb von {1} m stehst, laden sich alle mitgeführten Batterien (auch in Taschenlampen) automatisch.
+Umgebaut aus einem tragbaren Benzingenerator (an der Werkbank herstellbar). Verbrennt flüssigen Treibstoff (Treibstoff oder Biodiesel) für {0} W bei etwa {1} L pro Stunde. Treibstoff wird am Chemietisch aus Fett und Holzkohle hergestellt, Biodiesel beim Kochen aus Fett oder Pflanzenöl; auch Öltanks in der Welt enthalten Treibstoff. Treibstoffquellen: Flüssigkeitstanks, Öltanks sowie gefüllte Kanister oder Flaschen in Kisten oder Speicherkernen im Umkreis von {2} m, dazu Flüssigkeitstanks und Kanister im Speichernetzwerk desselben Stromnetzes, egal wie weit entfernt. Läuft nur, wenn dem Netz Strom fehlt oder der Speicher unter {3}% liegt. Etwas laut.
+Mit Strom versorgt ({0} W) pumpt sie Flüssigkeit aus wilden Öltanks innerhalb von {1} m (etwa {2} L/s): zuerst in Flüssigkeitstanks in Reichweite, dann in leere Kanister und Flaschen in Kisten oder Speicherkernen. Die Reichweite zählt ab der Mitte des Öltanks, und Öltanks sind lang, also die Pumpe neben die Mitte des Tanks stellen.
+Lagert Flüssigkeit direkt (Treibstoff, Biodiesel, Wasser…), ohne Kanister, bis zu {0} L. Braucht keinen Strom: innerhalb von {1} m eines Strommasts oder versorgten Geräts gebaut, tritt er diesem Netz automatisch bei. Zugriffsterminals und Unendliche AE-Terminals im selben Netz zeigen und entnehmen dann seine Flüssigkeit (in einen Kanister im Rucksack gießen oder ins Terminal zurücklegen), und Treibstoffgeneratoren im Netz können sie verbrennen, egal wie weit. Flüssigkeitspumpen füllen ihn direkt aus wilden Öltanks in der Nähe.
+Baut Erzvorkommen innerhalb von {0} m ab (Stein, Eisen, Kupfer, Salpeter, Schwefel, Salz), ein Erz alle {1} s. Erschöpfte Vorkommen verschwinden und es geht zum nächsten; bei weniger als {2} Vorkommen in Reichweite wird alle {3} s ein neues erkundet, sodass nie Schluss ist. Am Stromnetz gibt sie an das Speichernetzwerk dieses Netzes aus (oder an Kisten/Tanks innerhalb von {4} m).
+Fällt Bäume innerhalb von {0} m für Holz, Zweige und Rinde (ein Schlag alle {1} s). Am Stromnetz gibt er an das Speichernetzwerk dieses Netzes aus (oder an Kisten/Tanks innerhalb von {2} m).
+Sammelt ständig Rohwasser ({0} L/s, bei Regen doppelt) in Flüssigkeitstanks im selben Netz oder innerhalb von {1} m. Beim Kochen zu sauberem Wasser abkochen.
+Betreibt Stein- und Elektroöfen innerhalb von {0} m: füllt Erz, Metallschrott und Plastikmüll aus dem Speichernetzwerk nach, legt bei Steinöfen Holz als Treibstoff nach und bringt die Produkte zurück ins Netzwerk. Einen Steinofen musst du beim ersten Mal selbst anzünden.
+Pflanzt Bäume aus Stecklingen ({0} Zweig pro Baum, oder {1} Holz, wenn keine Zweige da sind) auf freiem Boden innerhalb von {2} m, einen alle {3} s, bis zu {4}. Setzlinge wachsen in etwa {5} Minuten; der Auto-Holzfäller wartet, bis sie ausgewachsen sind. Zweige kommen aus dem Speichernetzwerk des Netzes oder aus Kisten innerhalb von {6} m. Zusammen mit einem Auto-Holzfäller gibt es endlos Holz.
+Mit Strom versorgt startet sie eine Sammeldrohne, die Gegenstände am Boden innerhalb von {0} m aufhebt und ins Speichernetzwerk des Netzes bringt (oder in Kisten innerhalb von {1} m). Geschütztürme, Fallen und Flüssigkeiten werden ignoriert. Ist das Lager voll, werden Gegenstände neben der Station abgelegt.
+Ein Stahlgittermast, dessen Leitungen bis zu {0} m zu einem anderen Mast und {1} m zu einem normalen Strommast reichen – ideal, um entfernte Kraftwerke mit der Basis zu verbinden. Nach dem Bau verbindet er sich automatisch mit Masten in Reichweite. Das rote Flugwarnlicht oben blinkt.
+Öffnet sich automatisch zur Seite, wenn du oder ein Teammitglied näher als {0} m kommt, und schließt sich etwa {1} s nachdem ihr weg seid; Zombies und Feinde können sie nicht öffnen. Leuchtleiste: rot = zu, grün = offen. Braucht Strom: innerhalb von {2} m zu einem Strommast oder einem Gerät im Netz bauen (das Netz braucht Erzeugung oder gespeicherte Energie). Ohne Strom ist sie eine normale Tür. Haltbarkeit: {3}.
+Nach dem Bau erscheint ein Hubschrauber auf dem Landeplatz (einer pro Platz). Er funktioniert wie ein Auto: einsteigen, untersuchen oder den Laderaum durchsuchen; vom Fahrersitz den Motor starten, mit der Leertaste abheben oder landen und mit WASD über Gebäude und Bäume fliegen. Gefährten steigen mit ein. Im Flug die linke Maustaste halten, um das Maschinengewehr abzufeuern ({0}mm- oder {1}x{2}mm-Patronen aus dem Laderaum oder Rucksack). Der Landeplatz braucht Strom ({3} W): Solange der Hubschrauber darauf steht, tankt er automatisch aus Flüssigkeitstanks im selben Netz.
+Hochspannungs-Elektrozaun. Feinde, die ihn berühren, erleiden alle {1} s {0} Schaden und werden kurz betäubt. Im Standby verbraucht er {2} W, beim Schocken {3} W; bei weniger als halber Leistung schockt er nicht. Nebeneinander stehende Zäune teilen sich den Strom: Hängt einer am Netz, hat die ganze Reihe Strom – du brauchst nicht alle paar Felder einen Strommast. Kugeln beschädigen ihn nicht, du kannst also hinter ihm schießen; Zombies können ihn aber weiterhin zerstören.
+Der Suchscheinwerfer schwenkt über einen Bereich von {0} Grad hin und her, und der Alarm ertönt nur, wenn sein Strahl einen Feind im Umkreis von {1} m trifft: Du bekommst eine Meldung mit Anzahl und Richtung, das Licht folgt dem nächsten Feind, schlafende Verteidigungsanlagen im Umkreis von {2} m wachen auf und Automatiktüren schließen sich sofort. Verbrauch: {3} W beim Schwenken, {4} W bei Alarm. Beim Platzieren kannst du ihn drehen, um die Mitte des Schwenkbereichs festzulegen.
+Eine schwere, fest installierte {0}x{1}-Geschützstellung, die zum Schießen einen Lauf braucht (stell dich daneben und drück U, um einen ein- oder auszubauen): Der MG-Lauf nutzt Munition aus dem Lagernetz, der EM-Lauf erzeugt seine Geschosse aus Strom und braucht keine Munition, und der Railgun-Lauf lädt sich auf und feuert einen Schuss, der eine ganze Reihe Feinde durchschlägt. Sie zielt selbstständig auf sichtbare Feinde. Im Bereich eines Alarmturms schläft sie normalerweise, um Strom zu sparen ({2} W); wach verbraucht sie {3} W und beim Feuern je nach Lauf {4}–{5} W. Haltbarkeit: {6}.
+Ein Nahbereichs-Verteidigungsturm, der nur Strom braucht und keine Munition. Alle {0} s schlägt er alle Feinde im Umkreis von {1} m mit je {2} Schaden; getroffene Feinde werden verlangsamt und {3} s lang betäubt. Verbrauch: {4} W im Leerlauf, {5} W beim Entladen; im Bereich eines Alarmturms schläft er ({6} W). Haltbarkeit: {7}.
+Läuft nur mit Strom, kein Material nötig: Alle {0} s repariert sie eine Sache im Umkreis von {1} m mit weniger als {2}% Haltbarkeit vollständig, darunter Gebäude, Wände, Verteidigungsanlagen und normale Aufstellobjekte wie Geschütze und Fallen. Zuerst Verteidigungsanlagen, dann das am stärksten Beschädigte. Verbrauch: {3} W im Leerlauf, {4} W beim Reparieren.

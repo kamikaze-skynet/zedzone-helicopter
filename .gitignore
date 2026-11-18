@@ -1,0 +1,18 @@
+bin/
+obj/
+dist/
+tools/
+*.user
+.vs/
+.idea/
+# the built DLL is copied in at publish time
+workshop/content/Helicopter/*.dll
+tools/steamcmd/
+*.zip
+# Blender auto-backup copy of the .blend (duplicate, 38 MB)
+*.blend1
+# secrets / Steam login
+.env
+.env.*
+*.vdf
+ssfn*

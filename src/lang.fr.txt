@@ -1,0 +1,387 @@
+[Énergie]
+Réseau
+Tout
+Matériaux
+Armes
+Munitions
+Nourriture
+Médical
+Armure
+Placeables
+Sacs
+Autres
+Réseau de stockage
+Rechercher par nom…
+Trier
+Type
+Quantité
+Nom
+Prendre une quantité
+Filtres du noyau
+Prendre une quantité exacte (choisissez un objet, entrez un nombre)
+Aucun terminal d'accès à proximité, et hors de portée d'un terminal AE infini
+Rien n'a été stocké : pas assez de place dans le réseau
+Vous ne portez rien qui soit déjà dans le réseau (les sacs verrouillés sont ignorés)
+{1} objets ({0} types) stockés dans le réseau de stockage
+ (certains n'ont pas tenu et sont restés dans votre sac)
+Réseau de stockage : {1} × {0} manquaient et vous ont été rendus
+La quantité doit être d'au moins 1
+Stocké : {0} ×{1}
+Prendre {0}
+Stocker {0}
+{0} dans le réseau
+{0} dans cette pile
+OK (Entrée)
+Annuler (Échap)
+Tapez un nombre, Entrée pour valider
+Clic molette sur un objet : quantité exacte  |  Déposez un sac ou des vêtements pour les vider dans le réseau
+Déposer les mêmes
+Tout déposer
+Appuyer à nouveau
+Rien à déposer (armes, armures, munitions et sacs restent en place)
+{0} types, {1} objets au total seront déposés (armes, armures, munitions et sacs exclus). Appuyez à nouveau sur [Tout déposer] dans les 5 s pour confirmer
+{0} est verrouillé, laissé intact
+{0} est vide
+{0} vidé : {1} types, {2} objets déposés
+En multijoueur, seul l'hôte peut utiliser le réseau de stockage
+Nom du conteneur : {0}
+(sans nom)
+Renommer
+Effacer le nom
+Renommé : {0}
+Nom effacé
+Câbles masqués (visibles pendant le placement d'un bâtiment ; appuyez sur {0} pour les réafficher)
+Câbles affichés
+En multijoueur, seul l'hôte peut utiliser le mode créatif
+Mode créatif activé : construction instantanée gratuite, invincible, ni faim ni soif
+Mode créatif désactivé
+{0} ×{1} donné
+Mode créatif
+Désactiver le mode créatif
+Activer le mode créatif
+Construction instantanée gratuite · invincible · ni faim ni soif
+Rechercher un objet par nom ou ID…
+Ce mod
+Objets {0}–{1} sur {2} (molette pour défiler)
+Aucun objet correspondant
+Auto
+Échelle : {0}
+{0} sur {1} types affichés
+Aucun objet correspondant ({0} types dans le réseau)
+Choisissez d'abord un objet ci-dessus
+{0} : {1} dans le réseau
+Pile
+Prendre dans l'inventaire
+{0} ×{1} pris
+ (inventaire plein ou quantité insuffisante)
+Rien pris : l'inventaire est peut-être plein
+Filtres du noyau : cochez les seuls types acceptés par ce noyau (aucun = accepte tout)
+Réfrigérateur ({0:0.#} m du terminal) : le rangement auto n'y met que de la nourriture, jamais de médicaments
+#{0} Noyau de stockage ({1:0.#} m du terminal, {2} piles / {3} cases)
+Tous
+Aucun noyau de stockage à portée
+Les dépôts vont d'abord dans les noyaux au filtre correspondant, puis dans ceux sans filtre ; les noyaux au filtre non correspondant sont ignorés.
+Appuyez sur {0} pour ouvrir le réseau de stockage
+Aucun terminal d'accès à proximité
+Le terminal d'accès n'a pas de courant : reliez-le à un réseau ({0:0} W)
+En ligne, mais aucun noyau de stockage à moins de {0:0} m : construisez-en un pour commencer à stocker
+En ligne · {0} noyaux, {1} réfrigérateurs ({2} cases) · {3} types d'objets
+Erreur lors de l'analyse du réseau : {0}
+Liaison à distance · {0} noyaux
+ ({0} introuvables)
+Réseau de stockage ({0} noyaux + {1} réfrigérateurs)
+Réseau de stockage ({0} noyaux)
+Fenêtre de conteneur du jeu introuvable
+Les noyaux de stockage sont pleins ; objet rendu
+Aucun Terminal AE infini relié : construisez-en un à côté de vos noyaux, alimentez-le et passez une fois près de lui
+Terminal AE infini introuvable (il a peut-être été démonté)
+Le Terminal AE infini n'a pas de courant ; accès à distance impossible
+Borne réseau : alimente le réseau {0:0} W
+Borne réseau : recharge les véhicules {0:0} W
+Borne réseau : en veille, voiture sous {0:0} % (gardé pour rouler)
+Borne réseau : en veille, voiture pleine ({0:0} Wh)
+Borne réseau : en veille, pas de surplus pour recharger et pas de manque
+Borne réseau : aucun véhicule à moins de {0:0} m
+[{0}]
+[{0}] ({1} véhicules à portée, le plus proche est servi)
+véhicule
+Le Terminal AE infini le plus proche est à {0:0} m, hors de sa portée de {1:0} m : construisez-en un autre à proximité
+ · {0} Terminaux AE infinis reliés par câble
+Pompe à liquide : pas de courant
+Pompe à liquide : aucune source de liquide (citerne, etc.) à moins de {0:0} m
+Pompe à liquide : aucun réservoir, bidon ou bouteille vide à moins de {0:0} m (la source contient {1:0.#} L)
+Pompe à liquide : remplit {0}, {1:0.#} L/s | source {2:0.#} L restants | {3} contenants avec de la place
+Pompe à liquide : contenants pleins ou incompatibles avec ce liquide (la source contient {0:0.#} L)
+Générateur à carburant : pas relié à un réseau
+Générateur à carburant : en veille, le réseau a assez de courant (carburant {0:0.#} L)
+Générateur à carburant : pas de carburant — mettez des bidons pleins dans une caisse à moins de {0:0} m
+Générateur à carburant : pas de carburant — construisez un réservoir ou posez des bidons pleins à moins de {0:0} m
+Réservoir : {0:0.#} / {1:0} L ({2})
+vide
+Automatisation
+Foreuse auto : pas de courant
+Bûcheron auto : pas de courant
+Collecteur d'eau : pas de courant
+Chargeur de four : pas de courant
+Planteur d'arbres : pas de courant
+Foreuse auto : pas de courant (alimentation {0:0} %)
+Bûcheron auto : pas de courant (alimentation {0:0} %)
+Collecteur d'eau : pas de courant (alimentation {0:0} %)
+Planteur d'arbres : pas de courant (alimentation {0:0} %)
+Chargeur de four : pas de courant (alimentation {0:0} %)
+ | courant faible {0:0} %, fonctionne plus lentement
+Station de drone : pas de courant
+Station de drone : aucun endroit pour ranger (reliez un réseau de stockage ou posez une caisse à moins de 2 m)
+Station de drone : rien au sol à moins de {0:0} m | {1} ramassés
+Station de drone : va chercher {0} | {1} objets à portée | {2} ramassés
+Station de drone : stockage plein, objet déposé à côté de la station
+Planteur d'arbres : {0} arbres à portée (max {1}), {2} encore en croissance
+Planteur d'arbres : pas de brindilles ni de bois dans le réseau de stockage de ce réseau (ni dans les caisses à moins de 2 m) ; chaque arbre utilise 1 brindille (ou 1 bois) | {0} arbres à portée, {1} en croissance
+Planteur d'arbres : pas de terrain libre à portée | {0} arbres, {1} en croissance
+Planteur d'arbres : il faut des brindilles
+Planteur d'arbres : impossible de planter ici, essai à un autre endroit
+Planteur d'arbres : arbre planté | {0} à portée, {1} en croissance
+Foreuse auto : aucun gisement à moins de {0:0} m
+Foreuse auto : prospection, un nouveau gisement apparaît dans environ {0:0} s
+Mineur auto : réseau/caisses pleins, extraction en pause (reprend dès qu'il y a de la place)
+Foreuse auto : aucun endroit pour le minerai (reliez un réseau de stockage ou posez une caisse à moins de 2 m)
+Foreuse auto : extrait {0}, environ {1:0} restants | {2} extraits ({3} gisements à portée)
+Bûcheron auto : aucun arbre à moins de {0:0} m
+Bûcheron auto : réseau/caisses pleins, coupe en pause (reprend dès qu'il y a de la place)
+Bûcheron auto : aucun endroit pour le bois (reliez un réseau de stockage ou posez une caisse à moins de 2 m)
+Bûcheron auto : abattage | {0} récoltés ({1} arbres à portée)
+Collecteur d'eau : aucun réservoir (sur le réseau ou à moins de 2 m)
+Collecteur d'eau : réservoirs pleins ou contenant un autre liquide
+Collecteur d'eau : {0:0.##} L/s d'eau brute{1}
+ (doublé sous la pluie)
+Chargeur de four : aucun four en pierre ou électrique à moins de {0:0} m
+Chargeur de four : pas de réseau de stockage ni de caisse (reliez-le à un réseau ou posez une caisse à moins de 2 m)
+Chargeur de four : {0} fours | chargé {1}, carburant {2}, récupéré {3} | total récupéré {4}
+Aucun réservoir pour ce liquide ; rendu
+ + {0} réservoir(s)
+Réservoirs : {0} (capacité {1:0} L) :
+{0} {1:0.#} L ▸ remplir mes bidons
+{1:0.#} L de {0} pris dans les réservoirs, dans {2} contenant(s)
+Aucun bidon ou bouteille vide dans votre sac pour ce liquide
+Générateur à carburant : en marche {0:0} W | carburant {1:0.#} L ({2})
+Le chargeur de zone n'a pas de courant
+Chargeur de zone : prêt
+Chargeur de zone : aucune batterie sur vous
+Chargeur de zone : recharge ({0}/{1} batteries)
+Chargeur de zone : les {0} batteries sont pleines
+Tableau de bord du réseau
+{0} pour fermer
+Se ferme quand vous quittez le terminal
+Construisez et branchez d'abord un Terminal de surveillance électrique.
+Menu de construction → Électricité → Terminal de surveillance électrique
+Pas encore de réseau électrique.
+Construisez un générateur ou un panneau solaire et branchez un appareil.
+…{0} autres réseaux non affichés
+Durées en heures de jeu
+▲ Manque {0:0} %
+Aucune charge
+● Alimentation OK
+Réseau {0}
+Prod. {0} · Stockage {1} · Charges {2} · Poteaux {3}
+Solaire {0} ({1})
+{0} {1} ({2})
+Éolien
+Thermo
+Gén. carburant
+Manivelle
+Borne véhicule
+Solaire av.
+Solaire
+Générateurs {0} ({1}/{2} en marche)
+Production
+Charge
+{0} à pleine charge
+Stockage
+Charge {0}
+Décharge {0}
+Veille
+Arrêt
+Manque {0:0} %
+OK
+…{0} appareils de plus
+…{0} de plus
+ ({0} en manque sur ce réseau)
+{0} : installer un module d'overclock   Shift+{0} : installer un module d'économie
+{0} : installer un module d'overclock
+Shift+{0} : installer un module d'économie
+{1} retiré de {0}
+{1} installé dans {0}
+Impossible de prendre le module
+machine
+Pour four électrique, imprimante 3D, chargeur de batterie, radiateur ou plaque électrique : vitesse ×{0:0.##}, énergie ×{1:0.##}. Placez-vous à côté de la machine et appuyez sur {2} pour l'installer ; appuyez à nouveau pour le retirer.
+Pour four électrique, imprimante 3D, chargeur de batterie, radiateur ou plaque électrique : énergie ×{0:0.##}, vitesse ×{1:0.##}. Placez-vous à côté de la machine et appuyez sur Shift+{2} pour l'installer.
+vide dans ~{0:0.#} h
+plein dans ~{0:0.#} h
+plein
+stable
+Réseau {0} en manque : seulement {1:0} % de la demande fournie
+Réseau {0} stockage à {1:0} %, {2}
+Réseau {0} stockage {1:0} % : générateurs démarrés automatiquement
+Réseau {0} stockage {1:0} % : générateurs arrêtés automatiquement
+Critique
+Normal
+Faible
+Overclock
+Économie
+Trop fatigué — reposez-vous avant de tourner la manivelle
+Production {0:0} W (relâchez {1} pour arrêter)
+Maintenez {0} pour tourner la manivelle
+Module d'overclock
+Module d'économie
+Appuyez sur {0} pour retirer le {1}
+Appuyez sur {0} pour installer un module d'overclock, Shift+{0} pour un module d'économie
+Aucun module d'overclock/d'économie sur vous (fabriquez-en un dans le menu d'artisanat)
+{0} installé : vitesse ×{1:0.##}, énergie ×{2:0.##}
+{0} retiré
+Pas de {0} sur vous
+Accélère une machine mais augmente fortement sa consommation. Placez-vous à côté d'un four électrique, d'une imprimante 3D ou d'un chargeur de batterie et appuyez sur {0} pour l'installer.
+Réduit la consommation d'une machine au prix d'un peu de vitesse. Placez-vous à côté d'un four électrique, d'une imprimante 3D ou d'un chargeur de batterie et appuyez sur Shift+{0} pour l'installer.
+Véhicules
+Un hélicoptère est apparu sur l'héliport
+Hélicoptère : carburant {0:0.#} / {1:0} L | munitions {2} | {3} pour monter (Shift+{3} : faire le plein avec les bidons du sac)
+L'hélicoptère n'a plus de carburant : posez-le sur un héliport alimenté ou appuyez sur Shift+{0} pour faire le plein avec les bidons du sac
+Aucun bidon d'essence ou de diesel dans votre sac
+{0:0.#} L de carburant ajoutés (réservoir {1:0.#} / {2:0} L)
+Plus de carburant, atterrissage automatique
+En vol : carburant {0:0.#} L | munitions {1} | WASD pour voler, maintenir clic gauche pour tirer, {2} pour atterrir
+Pas de munitions : il faut des balles 5.56mm ou 7.62x39mm
+{0} coéquipier(s) monté(s) avec vous
+Hélicoptère : carburant {0:0.#} / {1:0} L | montez, démarrez le moteur, Espace pour décoller
+Démarrez le moteur avant de décoller
+Hélicoptère : appuyez sur Espace pour décoller une fois le moteur en marche
+En vol : WASD pour bouger, maintenir clic gauche pour la mitrailleuse, Espace pour atterrir | altitude {0:0} %
+Pas de munitions : mettez des balles 5.56mm ou 7.62x39mm dans la soute ou votre sac
+Impossible de descendre en vol : appuyez d'abord sur Espace pour atterrir
+Impossible de couper le moteur en vol : atterrissez d'abord
+Démarrez d'abord le moteur avec {0}
+Le moteur démarre : attendez que le rotor prenne de la vitesse
+Plus de carburant, le moteur s'est arrêté
+Hélicoptère
+En marche
+Démarrage {0:0} %
+Moteur
+Carburant
+Projecteur
+Allumé
+Altitude {0:0} %   Vitesse {1:0.#} m/s
+{0} moteur   Espace décoller/atterrir   {1} projecteur   {2} descendre   Clic gauche mitrailleuse
+Défense
+[Défense] 
+Énergie insuffisante
+Non connecté à un réseau de stockage
+Géré par l'hôte
+Électrocute ({0})
+Courant insuffisant (n'électrocute pas)
+{0} : {1:0} W
+En sommeil
+En alerte (tour d'alarme)
+En alerte (détection propre)
+Tour d'alarme à projecteur : {0} ennemis détectés ({1})
+En patrouille, couvre {0}
+Alarme ({0}, {1}) - {2} réveillés, portes {3}
+Canon de mitrailleuse
+Canon EM
+Canon de railgun
+mitrailleuse
+canon EM
+railgun
+projectile EM
+Canon de mitrailleuse pour l'emplacement de tir lourd. Placez-vous à côté de l'emplacement et appuyez sur {0} pour l'installer ; appuyez à nouveau pour le retirer. Portée {1:0} m. Tire des munitions 5.56/7.62/.45/9mm/.22 du réseau de stockage, {2:0} à {3:0} dégâts par tir.
+Canon EM pour l'emplacement de tir lourd. Placez-vous à côté de l'emplacement et appuyez sur {0} pour l'installer ; appuyez à nouveau pour le retirer. Portée {1:0} m. Il crée des projectiles électromagnétiques à partir d'énergie et n'a pas besoin de munitions : {2:0} dégâts par tir, {3:0.#} tirs par seconde, {4:0} W en tirant.
+Canon de railgun pour l'emplacement de tir lourd. Placez-vous à côté de l'emplacement et appuyez sur {0} pour l'installer ; appuyez à nouveau pour le retirer. Portée {1:0} m. Charge un tir toutes les {2:0.#} s qui inflige {3:0} dégâts et transperce jusqu'à {4} ennemis alignés. Sans munitions ; {5:0} W pendant la charge.
+Tir de projectiles EM ({0:0} W)
+Tir de railgun ({0} transpercés)
+Charge {0:0} % (railgun)
+Emplacement de tir lourd : plus de munitions de mitrailleuse (le réseau de stockage doit contenir des munitions 5.56/7.62/.45/9mm/.22)
+{0} : retirer {1} (chargeur {2} x{3})
+{0} : installer {1}
+Emplacement de tir lourd : il faut un canon sur vous ou dans le réseau de stockage pour l'installer
+En multijoueur, seul l'hôte peut installer ou retirer les canons
+{0} retiré de l'emplacement de tir lourd
+{0} installé sur l'emplacement de tir lourd
+Aucun canon sur vous ni dans le réseau de stockage
+(chargeur {0} x{1})
+{0} : passer au {1}   Maj+{0} : retirer
+{0} remplacé par {1}
+Sans canon
+, éclairé +{0:0}
+Tir (mitrailleuse {0} x{1})
+Plus de munitions
+Tesla
+mur
+mur (reconstruction)
+Matériaux manquants ({0})
+Réparation ({0} {1:0} %)
+{0} x{1}
+Cible masquée
+En alerte (mitrailleuse {0} x{1})
+En veille ({0})
+En alerte ({0})
+Panneau solaire avancé
+Terminal de surveillance électrique
+Petite éolienne
+Générateur thermoélectrique
+Stockage d'énergie renforcé
+Contrôleur de générateurs
+Générateur à manivelle
+Groupe électrogène lourd
+Borne réseau pour véhicule
+Noyau de stockage
+Terminal d'accès au stockage
+Terminal AE infini
+Chargeur de zone
+Générateur à carburant
+Pompe à liquide
+Réservoir de liquide
+Foreuse auto
+Bûcheron auto
+Collecteur d'eau
+Chargeur de four
+Planteur d'arbres auto
+Station de drone
+Pylône haute tension
+Porte automatique (grande)
+Porte automatique (petite)
+Porte automatique (grande, verticale)
+Porte automatique (petite, verticale)
+Héliport
+Clôture haute tension
+Tour d'alarme à projecteur
+Emplacement de tir lourd
+Bobine Tesla
+Station de réparation automatique
+Panneau solaire haut rendement produisant {0}× l'énergie d'un panneau normal. La production baisse quand même sous la pluie et à l'intérieur.
+Affiche la production, la charge et le stockage de son réseau. Approchez-vous pour voir, ou appuyez sur le raccourci pour ouvrir le tableau de bord.
+Produit de l'électricité grâce au vent, jusqu'à {0} W, de jour comme de nuit. Presque rien sans vent, un peu plus sous la pluie.
+À placer près de fours ou de générateurs (à moins de {0} m) pour transformer la chaleur perdue en électricité : {1} W par source de chaleur active, jusqu'à {2}.
+Stocke {0} Wh, charge/décharge jusqu'à {1} W ({2}× un stockage d'énergie normal).
+Démarre les générateurs Stirling de son réseau quand le stockage descend sous {0} % et les arrête au-dessus de {1} % pour économiser du carburant. Le réseau a besoin d'un stockage d'énergie.
+Placez-vous à côté et maintenez H pour produire {0} W. Consomme de l'endurance. Dernier recours sans carburant ni soleil.
+Brûle le même carburant qu'un générateur Stirling pour {0} W ({1}×), mais consomme {2}× plus vite. Bruyant, il attire les zombies proches.
+Relie au réseau les véhicules à moins de {0} m : recharge la voiture avec le surplus, et quand la production et le stockage ne couvrent pas la charge, la voiture comble le manque (jusqu'à {1} W) jusqu'à descendre à {2} %. Placez-vous à côté pour voir son état.
+Unité de stockage du réseau de stockage, aussi grande que la plus grande caisse du jeu. Construisez-en plus pour plus de place. Pas besoin de courant ni de câble : construit à moins de {0} m d'un poteau électrique ou de tout appareil alimenté, il rejoint ce réseau automatiquement. Chaque Terminal d'accès et Terminal AE infini du même réseau peut alors voir et prendre ses objets, à n'importe quelle distance. Les noyaux à moins de {1} m d'un terminal comptent aussi. Il s'ouvre aussi directement comme une caisse.
+Placez-vous à côté et appuyez sur N pour ouvrir le réseau de stockage : chercher, filtrer et prendre des objets dans tous les noyaux de stockage et réservoirs du même réseau électrique, à n'importe quelle distance (un noyau ou réservoir rejoint un réseau s'il est construit à moins de {0} m d'un poteau ou d'un appareil alimenté), plus les noyaux à moins de {1} m. Nécessite du courant ({2} W) ; sans courant, le réseau est hors ligne.
+Une fois alimenté ({0} W), appuyez sur N n'importe où à moins de {1} m pour ouvrir le réseau de stockage à distance. Il voit tous les noyaux et réservoirs de son réseau électrique, à n'importe quelle distance (un noyau ou réservoir rejoint un réseau s'il est construit à moins de {2} m d'un poteau ou d'un appareil alimenté), plus les noyaux à moins de {3} m. Pour l'utiliser plus loin, construisez un autre terminal là-bas et reliez-le par câble au même réseau ; les terminaux de réseaux différents forment des réseaux séparés.
+Reliez-le à un réseau ({0} W). Tant que vous restez à moins de {1} m, toutes vos batteries (y compris celles des lampes torches) se rechargent automatiquement.
+Conversion d'un générateur à essence portable (fabricable à l'établi). Brûle du carburant liquide (carburant ou biodiesel) pour {0} W, soit environ {1} L par heure. Le carburant se fabrique à partir de graisse et de charbon à l'établi de chimie, le biodiesel à partir de graisse ou d'huile végétale en cuisine ; les réservoirs de pétrole du monde contiennent aussi du carburant. Sources de carburant : réservoirs de liquide, réservoirs de pétrole, et bidons ou bouteilles pleins dans les caisses ou noyaux de stockage à moins de {2} m, ainsi que les réservoirs et bidons du réseau de stockage sur le même réseau électrique, quelle que soit la distance. Ne fonctionne que si le réseau manque d'énergie ou si le stockage est sous {3}%. Un peu bruyant.
+Une fois alimentée ({0} W), pompe le liquide des citernes sauvages à moins de {1} m (environ {2} L/s) : remplit d'abord les réservoirs à portée, puis les bidons et bouteilles vides dans les caisses ou noyaux de stockage. La portée se mesure depuis le centre de la citerne, et les citernes sont longues : placez la pompe à côté du milieu de la citerne.
+Stocke le liquide directement (carburant, biodiesel, eau…), sans bidons, jusqu'à {0} L. Pas besoin de courant : construit à moins de {1} m d'un poteau électrique ou d'un appareil alimenté, il rejoint ce réseau automatiquement. Les Terminaux d'accès et Terminaux AE infinis du même réseau affichent et prennent alors son liquide (versez-le dans un bidon de votre sac ou remettez-le dans le terminal), et les Générateurs à carburant du réseau peuvent le brûler, à n'importe quelle distance. Les Pompes à liquide le remplissent directement depuis les citernes sauvages proches.
+Exploite les gisements à moins de {0} m (pierre, fer, cuivre, salpêtre, soufre, sel), un minerai toutes les {1} s. Les gisements épuisés disparaissent et elle passe au suivant ; avec moins de {2} gisements à portée, elle en prospecte un nouveau toutes les {3} s, donc elle ne s'arrête jamais. Sur un réseau, elle envoie la production au réseau de stockage de ce réseau (ou aux caisses/réservoirs à moins de {4} m).
+Abat les arbres à moins de {0} m pour du bois, des brindilles et de l'écorce (un coup toutes les {1} s). Sur un réseau, il envoie la production au réseau de stockage de ce réseau (ou aux caisses/réservoirs à moins de {2} m).
+Collecte de l'eau brute en continu ({0} L/s, doublé sous la pluie) dans les réservoirs du même réseau ou à moins de {1} m. Faites-la bouillir en cuisinant pour obtenir de l'eau potable.
+Gère les fours en pierre et électriques à moins de {0} m : ajoute minerai, ferraille et déchets plastiques depuis le réseau de stockage, met du bois comme carburant dans les fours en pierre, et rapporte la production dans le réseau. Allumez vous-même un four en pierre la première fois.
+Plante des arbres par bouturage ({0} brindille chacun, ou {1} bois s'il n'y a plus de brindilles) sur le terrain libre à moins de {2} m, un toutes les {3} s, jusqu'à {4}. Les jeunes arbres poussent en environ {5} minutes ; le Bûcheron auto attend qu'ils aient fini de pousser. Les brindilles viennent du réseau de stockage du réseau ou des caisses à moins de {6} m. Associé à un Bûcheron auto, il donne du bois à l'infini.
+Une fois alimentée, lance un drone collecteur qui ramasse les objets au sol à moins de {0} m et les rapporte dans le réseau de stockage du réseau (ou dans les caisses à moins de {1} m). Il ignore les tourelles, les pièges et les liquides. Si le stockage est plein, les objets sont déposés à côté de la station.
+Pylône en treillis d'acier dont les câbles portent jusqu'à {0} m vers un autre pylône et {1} m vers un poteau normal, pour relier une centrale éloignée à la base. Une fois construit, il se connecte automatiquement aux pylônes à portée. Le feu de balisage rouge au sommet clignote.
+S'ouvre automatiquement en coulissant quand vous ou un coéquipier approchez à moins de {0} m, et se referme environ {1} s après votre départ ; zombies et ennemis ne peuvent pas l'ouvrir. Voyant : rouge = fermée, vert = ouverte. Nécessite du courant : construisez-la à moins de {2} m d'un poteau ou d'un appareil du réseau (le réseau doit produire ou stocker de l'énergie). Sans courant, c'est une porte manuelle normale. Durabilité : {3}.
+Une fois construit, un hélicoptère apparaît sur l'héliport (un par héliport). Il fonctionne comme une voiture : montez, inspectez-le ou fouillez sa soute ; depuis le siège pilote, démarrez le moteur, appuyez sur Espace pour décoller ou atterrir et volez avec WASD au-dessus des bâtiments et des arbres. Vos coéquipiers montent avec vous. En vol, maintenez le clic gauche pour tirer à la mitrailleuse (balles {0}mm ou {1}x{2}mm prises dans la soute ou votre sac). L'héliport doit être alimenté ({3} W) : tant que l'hélicoptère est posé dessus, il fait automatiquement le plein depuis les réservoirs du même réseau.
+Clôture électrique haute tension. Les ennemis qui la touchent subissent {0} dégâts toutes les {1} s et sont brièvement étourdis. Elle consomme {2} W en veille et {3} W en décharge, et ne décharge pas si la puissance tombe sous la moitié. Les clôtures placées côte à côte partagent l'énergie : si une seule est sur un réseau, toute la rangée l'est, inutile de planter un poteau tous les quelques mètres. Les balles ne l'abîment pas, vous pouvez donc tirer derrière elle ; les zombies peuvent toujours la détruire.
+Le projecteur balaie en va-et-vient un arc de {0} degrés, et l'alarme ne retentit que lorsque son faisceau touche un ennemi à moins de {1} m : vous recevez une notification avec le nombre et la direction, la lumière suit l'ennemi le plus proche, les défenses endormies à moins de {2} m se réveillent et les portes automatiques se ferment aussitôt. Consomme {3} W en balayage et {4} W pendant une alarme. Faites-le pivoter à la pose pour choisir le centre du balayage.
+Emplacement de tir lourd fixe de {0}x{1} qui a besoin d'un canon pour tirer (placez-vous à côté et appuyez sur U pour en installer ou en retirer un) : le canon de mitrailleuse utilise les munitions du réseau de stockage, le canon EM crée ses projectiles à partir d'énergie sans munitions, et le canon de railgun se charge puis tire un projectile qui transperce toute une ligne d'ennemis. Il vise tout seul les ennemis visibles. Couvert par une tour d'alarme, il reste en veille pour économiser l'énergie ({2} W) ; éveillé, il consomme {3} W, et {4} à {5} W en tirant selon le canon. Durabilité : {6}.
+Une tour de défense à courte portée qui fonctionne uniquement à l'énergie, sans munitions. Toutes les {0} s, elle foudroie tous les ennemis à moins de {1} m pour {2} dégâts chacun ; les ennemis touchés sont ralentis et étourdis pendant {3} s. Elle consomme {4} W au repos et {5} W en décharge ; couverte par une tour d'alarme, elle reste en veille ({6} W). Durabilité : {7}.
+Fonctionne uniquement à l'énergie, sans matériaux : toutes les {0} s, elle répare entièrement un élément à moins de {1} m dont la durabilité est sous {2} %, y compris les bâtiments, les murs, les défenses et les objets déployables de base comme les tourelles et les pièges. Les défenses passent en premier, puis le plus endommagé. Consomme {3} W au repos et {4} W en réparation.

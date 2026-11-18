@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Helicopter</AssemblyName>
+    <RootNamespace>ZedHelicopter</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Version>1.2.0</Version>
+    <DebugType>none</DebugType>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <NoWarn>CS0436;CS8632;CS1701;CS1702;MSB3277;MSB3243;CS0162;CS0168;CS0219;CS0414;CS0649;CS0169</NoWarn>
+  </PropertyGroup>
+
+  <!--
+    Point this at your game. BepInEx (IL2CPP) must have run once so BepInEx\interop exists.
+      dotnet build -c Release -p:GameDir="D:\SteamLibrary\steamapps\common\ZED ZONE"
+    Add -p:CopyToMods=true to copy the DLL into D:\SteamLibrary\steamapps\common\ZED ZONE\Mods\Helicopter.
+  -->
+  <PropertyGroup>
+    <GameDir Condition="'$(GameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\ZED ZONE</GameDir>
+    <BepInExDir Condition="'$(BepInExDir)' == ''">$(GameDir)\BepInEx</BepInExDir>
+    <ModsDir Condition="'$(ModsDir)' == ''">$(GameDir)\Mods</ModsDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(BepInExDir)\core\*.dll" Private="false" />
+    <Reference Include="$(BepInExDir)\interop\*.dll" Exclude="$(BepInExDir)\interop\UnityEngine.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="art.heli_body.png" LogicalName="art.heli_body.png" />
+    <EmbeddedResource Include="art.heli_rotor.png" LogicalName="art.heli_rotor.png" />
+    <EmbeddedResource Include="art.heli_minigun.png" LogicalName="art.heli_minigun.png" />
+    <EmbeddedResource Include="art.heli_icon.png" LogicalName="art.heli_icon.png" Condition="Exists('art.heli_icon.png')" />
+    <EmbeddedResource Include="lang.*.txt" LogicalName="%(Filename)%(Extension)" WithCulture="false" />
+  </ItemGroup>
+
+  <Target Name="CopyToMods" AfterTargets="Build" Condition="'$(CopyToMods)' == 'true'">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModsDir)\Helicopter" />
+    <Message Importance="high" Text="Copied $(TargetFileName) to $(ModsDir)\Helicopter" />
+  </Target>
+</Project>

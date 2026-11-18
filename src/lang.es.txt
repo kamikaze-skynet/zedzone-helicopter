@@ -1,0 +1,387 @@
+[Energía]
+Red
+Todo
+Materiales
+Armas
+Munición
+Comida
+Médico
+Armadura
+Colocables
+Bolsas
+Otros
+Red de almacenamiento
+Buscar por nombre…
+Ordenar
+Tipo
+Cantidad
+Nombre
+Sacar cantidad
+Filtros del núcleo
+Sacar una cantidad exacta (elige un objeto e introduce un número)
+No hay terminal de acceso cerca y no estás en el alcance de un terminal AE infinito
+No se guardó nada: no hay espacio suficiente en la red
+No llevas nada que ya esté en la red (las bolsas bloqueadas se omiten)
+Guardados {1} objetos ({0} tipos) en la red de almacenamiento
+ (algunos no cabían y se quedaron en tu bolsa)
+Red de almacenamiento: faltaban {1} × {0} y se te devolvieron
+La cantidad debe ser al menos 1
+Guardado: {0} ×{1}
+Tomar {0}
+Guardar {0}
+{0} en la red
+{0} en esta pila
+Aceptar (Enter)
+Cancelar (Esc)
+Escribe un número, Enter para confirmar
+Clic central en un objeto: cantidad exacta  |  Coloca una mochila o ropa para vaciarla en la red
+Guardar iguales
+Guardar todo
+Pulsa otra vez
+Nada que guardar (armas, armaduras, munición y mochilas no se tocan)
+Se guardarán {0} tipos, {1} objetos en total (armas, armaduras, munición y mochilas se quedan). Pulsa [Guardar todo] otra vez en 5 s para confirmar
+{0} está bloqueado, no se tocó
+{0} está vacío
+{0} vaciado: {1} tipos, {2} objetos guardados
+En multijugador, solo el anfitrión puede usar la red de almacenamiento
+Nombre del contenedor: {0}
+(sin nombre)
+Renombrar
+Borrar nombre
+Renombrado: {0}
+Nombre borrado
+Cables ocultos (se ven mientras colocas edificios; pulsa {0} para mostrarlos de nuevo)
+Cables visibles
+En multijugador solo el anfitrión puede usar el modo creativo
+Modo creativo activado: construcción instantánea gratis, invencible, sin hambre ni sed
+Modo creativo desactivado
+Entregado: {0} ×{1}
+Modo creativo
+Desactivar el modo creativo
+Activar el modo creativo
+Construcción instantánea gratis · invencible · sin hambre ni sed
+Buscar objeto por nombre o ID…
+Este mod
+Objetos {0}–{1} de {2} (usa la rueda para desplazarte)
+No hay objetos que coincidan
+Auto
+Escala: {0}
+Mostrando {0} de {1} tipos
+Sin objetos coincidentes ({0} tipos en la red)
+Primero elige un objeto arriba
+{0}: {1} en la red
+Pila
+Sacar al inventario
+Sacado {0} ×{1}
+ (inventario lleno o no hay suficiente)
+No se sacó nada: puede que el inventario esté lleno
+Filtros del núcleo: marca los únicos tipos que acepta este núcleo (ninguno = acepta todo)
+Nevera ({0:0.#} m del terminal): el guardado automático solo guarda comida, nunca objetos médicos
+#{0} Núcleo de almacenamiento ({1:0.#} m del terminal, {2} pilas / {3} casillas)
+Cualquiera
+No hay núcleo de almacenamiento en rango
+Los depósitos van primero a los núcleos con filtro coincidente y luego a los que no tienen filtro; los núcleos con filtro que no coincide se omiten.
+Pulsa {0} para abrir la red de almacenamiento
+No hay terminal de acceso cerca
+El terminal de acceso no tiene energía: conéctalo a una red ({0:0} W)
+En línea, pero no hay núcleo de almacenamiento a menos de {0:0} m: construye uno para empezar a guardar
+En línea · {0} núcleos, {1} neveras ({2} casillas) · {3} tipos de objetos
+Error al escanear la red: {0}
+Conexión remota · {0} núcleos
+ ({0} no encontrados)
+Red de almacenamiento ({0} núcleos + {1} neveras)
+Red de almacenamiento ({0} núcleos)
+No se encuentra la ventana de contenedor del juego
+Los núcleos de almacenamiento están llenos; objeto devuelto
+Aún no hay Terminal AE infinito enlazado: construye uno junto a tus núcleos, dale energía y acércate a él una vez
+No se encuentra el Terminal AE infinito (puede que se haya desmontado)
+El Terminal AE infinito no tiene energía; acceso remoto no disponible
+Conexión a red: alimentando la red con {0:0} W
+Conexión a red: cargando vehículos {0:0} W
+Conexión a red: en espera, coche por debajo del {0:0}% (reservado para conducir)
+Conexión a red: en espera, coche totalmente cargado ({0:0} Wh)
+Conexión a red: en espera, sin energía sobrante para cargar y sin déficit
+Conexión a red: no hay vehículos a menos de {0:0} m
+[{0}]
+[{0}] ({1} vehículos en rango, se atiende al más cercano)
+vehículo
+El Terminal AE infinito más cercano está a {0:0} m, fuera de su rango de {1:0} m: construye otro cerca
+ · {0} Terminales AE infinitos conectados por cable
+Bomba de líquidos: sin energía
+Bomba de líquidos: no hay fuente de líquido (tanque, etc.) a menos de {0:0} m
+Bomba de líquidos: no hay depósito, bidón vacío ni botella a menos de {0:0} m (la fuente tiene {1:0.#} L)
+Bomba de líquidos: llenando {0}, {1:0.#} L/s | quedan {2:0.#} L en la fuente | {3} recipientes con espacio
+Bomba de líquidos: los recipientes están llenos o no admiten este líquido (la fuente tiene {0:0.#} L)
+Generador de combustible: no está conectado a una red
+Generador de combustible: en espera, la red tiene energía suficiente (combustible {0:0.#} L)
+Generador de combustible: sin combustible — pon bidones llenos en una caja a menos de {0:0} m
+Generador de combustible: sin combustible — construye un depósito de líquidos o pon bidones llenos a menos de {0:0} m
+Depósito de líquidos: {0:0.#} / {1:0} L ({2})
+vacío
+Automatización
+Minero automático: sin energía
+Leñador automático: sin energía
+Colector de agua: sin energía
+Cargador de horno: sin energía
+Plantador de árboles: sin energía
+Minero automático: sin energía (suministro {0:0}%)
+Leñador automático: sin energía (suministro {0:0}%)
+Colector de agua: sin energía (suministro {0:0}%)
+Plantador de árboles: sin energía (suministro {0:0}%)
+Cargador de horno: sin energía (suministro {0:0}%)
+ | poca energía {0:0}%, funciona más lento
+Estación de dron: sin energía
+Estación de dron: no hay dónde guardar (conecta una red de almacenamiento o pon una caja a menos de 2 m)
+Estación de dron: nada en el suelo a menos de {0:0} m | {1} recogidos
+Estación de dron: yendo a por {0} | {1} objetos en rango | {2} recogidos
+Estación de dron: almacenamiento lleno, objeto dejado junto a la estación
+Plantador de árboles: {0} árboles en rango (máx. {1}), {2} aún creciendo
+Plantador de árboles: no hay ramitas ni madera en la red de almacenamiento de esta red (ni en cajas a menos de 2 m); cada árbol usa 1 ramita (o 1 madera) | {0} árboles en rango, {1} creciendo
+Plantador de árboles: no hay suelo libre en rango | {0} árboles, {1} creciendo
+Plantador de árboles: necesita ramitas
+Plantador de árboles: no se pudo plantar aquí, probará en otro sitio
+Plantador de árboles: árbol plantado | {0} en rango, {1} creciendo
+Minero automático: no hay vetas a menos de {0:0} m
+Minero automático: prospectando, aparecerá una veta nueva en unos {0:0} s
+Minero automático: red/cajas llenas, minería en pausa (se reanuda cuando haya espacio)
+Minero automático: no hay dónde guardar el mineral (conecta una red de almacenamiento o pon una caja a menos de 2 m)
+Minero automático: extrayendo {0}, quedan unos {1:0} | {2} extraídos ({3} vetas en rango)
+Leñador automático: no hay árboles a menos de {0:0} m
+Leñador automático: red/cajas llenas, tala en pausa (se reanuda cuando haya espacio)
+Leñador automático: no hay dónde guardar la madera (conecta una red de almacenamiento o pon una caja a menos de 2 m)
+Leñador automático: talando | {0} recogidos ({1} árboles en rango)
+Colector de agua: no hay depósito de líquidos (en la red o a menos de 2 m)
+Colector de agua: los depósitos están llenos o contienen otro líquido
+Colector de agua: {0:0.##} L/s de agua sin tratar{1}
+ (doble con lluvia)
+Cargador de horno: no hay horno de piedra ni eléctrico a menos de {0:0} m
+Cargador de horno: no hay red de almacenamiento ni caja (conéctalo a una red o pon una caja a menos de 2 m)
+Cargador de horno: {0} hornos | cargado {1}, combustible {2}, recogido {3} | total recogido {4}
+No hay depósito para este líquido; devuelto
+ + {0} depósito(s) de líquidos
+Depósitos de líquidos: {0} (capacidad {1:0} L):
+{0} {1:0.#} L ▸ llenar mis bidones
+Sacados {1:0.#} L de {0} de los depósitos en {2} recipiente(s)
+No hay bidón ni botella vacíos en tu mochila que admitan este líquido
+Generador de combustible: funcionando {0:0} W | combustible {1:0.#} L ({2})
+El cargador de área no tiene energía
+Cargador de área: listo
+Cargador de área: no llevas baterías
+Cargador de área: cargando ({0}/{1} baterías)
+Cargador de área: las {0} baterías están llenas
+Panel de la red eléctrica
+{0} para cerrar
+Se cierra al alejarte del terminal
+Primero construye y conecta un Terminal de monitoreo eléctrico.
+Menú de construcción → Electricidad → Terminal de monitoreo eléctrico
+Todavía no hay red eléctrica.
+Construye un generador o un panel solar y conecta un dispositivo.
+…{0} redes más sin mostrar
+Tiempos en horas de juego
+▲ Déficit {0:0}%
+Sin consumo
+● Suministro correcto
+Red {0}
+Gen. {0} · Almac. {1} · Consumos {2} · Postes {3}
+Solar {0} ({1})
+{0} {1} ({2})
+Eólica
+Termo
+Gen. combustible
+Manivela
+Conexión coche
+Solar av.
+Solar
+Generadores {0} ({1}/{2} funcionando)
+Generación
+Consumo
+{0} a plena carga
+Almacenamiento
+Cargando {0}
+Descargando {0}
+En espera
+Apagado
+Déficit {0:0}%
+OK
+…{0} dispositivos más
+…{0} más
+ ({0} con déficit en esta red)
+{0}: instalar módulo de overclock   Shift+{0}: instalar módulo de eficiencia
+{0}: instalar módulo de overclock
+Shift+{0}: instalar módulo de eficiencia
+{1} quitado de {0}
+{1} instalado en {0}
+No se pudo sacar el módulo
+máquina
+Para horno eléctrico, impresora 3D, cargador de baterías, calefactor eléctrico o cocina eléctrica: velocidad ×{0:0.##}, energía ×{1:0.##}. Ponte junto a la máquina y pulsa {2} para instalarlo; pulsa otra vez para quitarlo.
+Para horno eléctrico, impresora 3D, cargador de baterías, calefactor eléctrico o cocina eléctrica: energía ×{0:0.##}, velocidad ×{1:0.##}. Ponte junto a la máquina y pulsa Shift+{2} para instalarlo.
+vacío en ~{0:0.#} h
+lleno en ~{0:0.#} h
+lleno
+estable
+Red {0} con déficit: solo se cubre el {1:0}% de la demanda
+Red {0} almacenamiento al {1:0}%, {2}
+Red {0} almacenamiento {1:0}%: generadores arrancados automáticamente
+Red {0} almacenamiento {1:0}%: generadores detenidos automáticamente
+Crítico
+Normal
+Bajo
+Overclock
+Eficiencia
+Demasiado cansado — descansa antes de girar la manivela
+Generando {0:0} W (suelta {1} para parar)
+Mantén {0} para girar el generador
+Módulo de overclock
+Módulo de eficiencia
+Pulsa {0} para quitar el {1}
+Pulsa {0} para instalar un módulo de overclock, Shift+{0} para uno de eficiencia
+No llevas módulo de overclock/eficiencia (fabrícalo en el menú de fabricación)
+{0} instalado: velocidad ×{1:0.##}, energía ×{2:0.##}
+{0} quitado
+No llevas {0}
+Acelera una máquina pero aumenta mucho su consumo. Ponte junto a un horno eléctrico, una impresora 3D o un cargador de baterías y pulsa {0} para instalarlo.
+Reduce el consumo de una máquina a cambio de algo de velocidad. Ponte junto a un horno eléctrico, una impresora 3D o un cargador de baterías y pulsa Shift+{0} para instalarlo.
+Vehículos
+Ha aparecido un helicóptero en el helipuerto
+Helicóptero: combustible {0:0.#} / {1:0} L | munición {2} | {3} para subir (Shift+{3}: repostar con los bidones de la mochila)
+El helicóptero no tiene combustible: déjalo en un helipuerto con energía o pulsa Shift+{0} para repostar con los bidones de la mochila
+No hay bidones con gasolina o diésel en tu mochila
+Repostados {0:0.#} L (depósito {1:0.#} / {2:0} L)
+Sin combustible, aterrizando automáticamente
+En vuelo: combustible {0:0.#} L | munición {1} | WASD para volar, mantén clic izquierdo para disparar, {2} para aterrizar
+Sin munición: lleva balas de 5.56mm o 7.62x39mm
+{0} compañero(s) subieron contigo
+Helicóptero: combustible {0:0.#} / {1:0} L | sube, arranca el motor y pulsa Espacio para despegar
+Arranca el motor antes de despegar
+Helicóptero: pulsa Espacio para despegar cuando el motor esté en marcha
+En vuelo: WASD para moverte, mantén clic izquierdo para la ametralladora, Espacio para aterrizar | altitud {0:0}%
+Sin munición: pon balas de 5.56mm o 7.62x39mm en la bodega o en tu mochila
+No puedes bajar en el aire: pulsa Espacio para aterrizar primero
+No puedes apagar el motor en vuelo: aterriza primero
+Primero arranca el motor con {0}
+El motor está arrancando: espera a que el rotor coja velocidad
+Sin combustible, el motor se apagó
+Helicóptero
+En marcha
+Arrancando {0:0}%
+Motor
+Combustible
+Foco
+Encendido
+Altitud {0:0}%   Velocidad {1:0.#} m/s
+{0} motor   Espacio despegar/aterrizar   {1} foco   {2} bajar   Clic izq. ametralladora
+Defensa
+[Defensa] 
+Energía insuficiente
+No conectado a una red de almacenamiento
+Lo gestiona el anfitrión
+Electrocutando ({0})
+Poca energía (no electrocuta)
+{0}: {1:0} W
+Dormido
+En guardia (torre de alarma)
+En guardia (detección propia)
+Torre de alarma con foco: {0} enemigos detectados ({1})
+Patrullando, cubre {0}
+Alarma ({0}, {1}) - {2} despertados, puertas {3}
+Cañón de ametralladora
+Cañón EM
+Cañón de railgun
+ametralladora
+cañón EM
+railgun
+proyectil EM
+Cañón de ametralladora para el emplazamiento pesado. Ponte junto al emplazamiento y pulsa {0} para montarlo; vuelve a pulsar para quitarlo. Alcance {1:0} m. Dispara munición 5.56/7.62/.45/9mm/.22 de la red de almacenamiento, {2:0}-{3:0} de daño por disparo.
+Cañón EM para el emplazamiento pesado. Ponte junto al emplazamiento y pulsa {0} para montarlo; vuelve a pulsar para quitarlo. Alcance {1:0} m. Crea proyectiles electromagnéticos con energía y no necesita munición: {2:0} de daño por disparo, {3:0.#} disparos por segundo, {4:0} W al disparar.
+Cañón de railgun para el emplazamiento pesado. Ponte junto al emplazamiento y pulsa {0} para montarlo; vuelve a pulsar para quitarlo. Alcance {1:0} m. Carga un disparo cada {2:0.#} s que hace {3:0} de daño y atraviesa hasta {4} enemigos en línea. Sin munición; {5:0} W mientras carga.
+Disparando proyectiles EM ({0:0} W)
+Disparo de railgun ({0} atravesados)
+Cargando {0:0}% (railgun)
+Emplazamiento pesado: sin munición de ametralladora (la red de almacenamiento necesita munición 5.56/7.62/.45/9mm/.22)
+{0}: quitar {1} (cargador {2} x{3})
+{0}: montar {1}
+Emplazamiento pesado: necesitas un cañón encima o en la red de almacenamiento para montarlo
+En multijugador, solo el anfitrión puede montar o quitar cañones
+{0} quitado del emplazamiento pesado
+{0} montado en el emplazamiento pesado
+No tienes ningún cañón ni hay uno en la red de almacenamiento
+(cargador {0} x{1})
+{0}: cambiar a {1}   Mayús+{0}: quitar
+{0} cambiado por {1}
+Sin cañón
+, iluminado +{0:0}
+Disparando (ametralladora {0} x{1})
+Sin munición
+Tesla
+muro
+muro (reconstrucción)
+Faltan materiales ({0})
+Reparando ({0} {1:0}%)
+{0} x{1}
+Objetivo tapado
+En guardia (ametralladora {0} x{1})
+Dormido ({0})
+En guardia ({0})
+Panel solar avanzado
+Terminal de monitoreo eléctrico
+Aerogenerador pequeño
+Generador termoeléctrico
+Almacenamiento de energía mejorado
+Controlador de generadores
+Generador de manivela
+Grupo electrógeno pesado
+Conexión de vehículo a la red
+Núcleo de almacenamiento
+Terminal de acceso al almacenamiento
+Terminal AE infinito
+Cargador de área
+Generador de combustible
+Bomba de líquidos
+Depósito de líquidos
+Minero automático
+Leñador automático
+Colector de agua
+Cargador de horno
+Plantador de árboles automático
+Estación de dron
+Torre de alta tensión
+Puerta automática (grande)
+Puerta automática (pequeña)
+Puerta automática (grande, vertical)
+Puerta automática (pequeña, vertical)
+Helipuerto
+Valla de alta tensión
+Torre de alarma con foco
+Emplazamiento pesado
+Bobina Tesla
+Estación de reparación automática
+Panel solar de alta eficiencia que produce {0}× la energía de un panel normal. Con lluvia y bajo techo la producción también baja.
+Muestra la generación, el consumo y el almacenamiento de su red. Acércate para verlo, o pulsa la tecla rápida para abrir el panel de la red.
+Genera energía con el viento, hasta {0} W, de día y de noche. Casi nada sin viento, algo más con lluvia.
+Colócalo cerca de hornos o generadores (a menos de {0} m) para convertir el calor residual en electricidad: {1} W por fuente de calor activa, hasta {2}.
+Almacena {0} Wh y carga/descarga hasta {1} W ({2}× un almacenamiento de energía normal).
+Arranca los generadores Stirling de su red cuando el almacenamiento baja del {0}% y los detiene por encima del {1}% para ahorrar combustible. La red necesita un almacenamiento de energía.
+Ponte al lado y mantén H para generar {0} W. Gasta aguante. Último recurso cuando no hay combustible ni sol.
+Quema el mismo combustible que un generador Stirling para dar {0} W ({1}×), pero gasta combustible {2}× más rápido. Es ruidoso y atrae a los zombis cercanos.
+Conecta a la red los vehículos a menos de {0} m: carga el coche al máximo con la energía sobrante y, cuando la generación y el almacenamiento no cubren el consumo, el coche cubre la diferencia (hasta {1} W) hasta bajar al {2}%. Ponte al lado para ver su estado.
+Unidad de almacenamiento de la red de almacenamiento, tan grande como la caja más grande del juego. Construye más para tener más espacio. No necesita energía ni cable: si lo construyes a menos de {0} m de un poste eléctrico o de cualquier dispositivo con energía, se une a esa red automáticamente. Así, cada Terminal de acceso y Terminal AE infinito de la misma red puede ver y sacar sus objetos, a cualquier distancia. Los núcleos a menos de {1} m de un terminal también cuentan. También se puede abrir directamente como una caja.
+Ponte al lado y pulsa N para abrir la red de almacenamiento: busca, filtra y saca objetos de todos los núcleos de almacenamiento y depósitos de líquidos de la misma red eléctrica, a cualquier distancia (un núcleo o depósito se une a una red si se construye a menos de {0} m de un poste o de un dispositivo con energía), además de los núcleos a menos de {1} m. Necesita energía ({2} W); sin ella, la red está desconectada.
+Con energía ({0} W), pulsa N en cualquier lugar a menos de {1} m para abrir la red de almacenamiento a distancia. Ve todos los núcleos y depósitos de líquidos de su red eléctrica, a cualquier distancia (un núcleo o depósito se une a una red si se construye a menos de {2} m de un poste o de un dispositivo con energía), además de los núcleos a menos de {3} m. Para usar la red más lejos, construye otro terminal allí y conéctalo por cable a la misma red; los terminales de redes distintas son redes separadas.
+Conéctalo a una red ({0} W). Mientras estés a menos de {1} m, todas las baterías que lleves (incluidas las de las linternas) se cargan automáticamente.
+Adaptado de un generador de gasolina portátil (se fabrica en el banco de trabajo). Quema combustible líquido (combustible o biodiésel) para generar {0} W, con un consumo de unos {1} L por hora. El combustible se fabrica con grasa y carbón en la mesa de química, y el biodiésel con grasa o aceite vegetal al cocinar; los tanques de petróleo del mundo también contienen combustible. Fuentes de combustible: tanques de líquido, tanques de petróleo y bidones o botellas con combustible en cajas o núcleos de almacenamiento a menos de {2} m, además de los tanques y bidones de la red de almacenamiento de la misma red eléctrica, a cualquier distancia. Solo funciona cuando a la red le falta energía o el almacenamiento está por debajo del {3}%. Algo ruidoso.
+Con energía ({0} W), bombea líquido de los tanques de petróleo salvajes a menos de {1} m (unos {2} L/s): primero llena los depósitos de líquidos en rango y luego los bidones y botellas vacíos de cajas o núcleos de almacenamiento. El rango se mide desde el centro del tanque, y los tanques son largos, así que coloca la bomba junto al centro del tanque.
+Guarda líquido directamente (combustible, biodiésel, agua…), sin bidones, hasta {0} L. No necesita energía: si lo construyes a menos de {1} m de un poste eléctrico o de un dispositivo con energía, se une a esa red automáticamente. Los Terminales de acceso y Terminales AE infinitos de la misma red muestran y sacan su líquido (viértelo en un bidón de tu mochila o devuélvelo al terminal), y los Generadores de combustible de la red pueden quemarlo, a cualquier distancia. Las Bombas de líquidos lo llenan directamente desde tanques de petróleo salvajes cercanos.
+Extrae vetas a menos de {0} m (piedra, hierro, cobre, salitre, azufre, sal), un mineral cada {1} s. Las vetas agotadas desaparecen y pasa a la siguiente; con menos de {2} vetas en rango, prospecta una nueva cada {3} s, así que nunca se queda sin mineral. En una red, envía la producción a la red de almacenamiento de esa red (o a cajas/depósitos a menos de {4} m).
+Tala árboles a menos de {0} m para obtener madera, ramitas y corteza (un golpe cada {1} s). En una red, envía la producción a la red de almacenamiento de esa red (o a cajas/depósitos a menos de {2} m).
+Recoge agua sin tratar sin parar ({0} L/s, doble con lluvia) en depósitos de líquidos de la misma red o a menos de {1} m. Hiérvela al cocinar para obtener agua limpia.
+Gestiona hornos de piedra y eléctricos a menos de {0} m: añade mineral, chatarra y plástico de desecho desde la red de almacenamiento, echa madera como combustible a los hornos de piedra y devuelve la producción a la red. Enciende tú mismo un horno de piedra la primera vez.
+Planta árboles por esqueje ({0} ramita cada uno, o {1} madera si no hay ramitas) en suelo libre a menos de {2} m, uno cada {3} s, hasta {4}. Los brotes crecen en unos {5} minutos; el Leñador automático espera a que crezcan. Las ramitas salen de la red de almacenamiento de la red o de cajas a menos de {6} m. Junto con un Leñador automático da madera sin fin.
+Con energía, lanza un dron recolector que recoge los objetos tirados en el suelo a menos de {0} m y los lleva a la red de almacenamiento de la red (o a cajas a menos de {1} m). Ignora torretas, trampas y líquidos. Si el almacenamiento está lleno, deja los objetos junto a la estación.
+Torre de celosía de acero cuyos cables llegan hasta {0} m a otra torre y {1} m a un poste eléctrico normal, para conectar centrales lejanas con la base. Al construirla se conecta sola a las torres en alcance. La luz roja de aviso aéreo de la cima parpadea.
+Se abre deslizándose sola cuando tú o un compañero os acercáis a menos de {0} m y se cierra unos {1} s después de que os vayáis; los zombis y enemigos no pueden abrirla. Luz superior: rojo = cerrada, verde = abierta. Necesita electricidad: constrúyela a menos de {2} m de un poste o de cualquier aparato conectado a la red (la red debe generar o tener energía almacenada). Sin electricidad funciona como una puerta manual normal. Durabilidad: {3}.
+Al construirlo aparece un helicóptero en el helipuerto (uno por helipuerto). Funciona como un coche: súbete, inspecciónalo o registra su bodega; desde el asiento del piloto arranca el motor, pulsa Espacio para despegar o aterrizar y vuela con WASD por encima de edificios y árboles. Tus compañeros suben contigo. En vuelo, mantén el clic izquierdo para disparar la ametralladora (balas de {0}mm o {1}x{2}mm de la bodega o tu mochila). El helipuerto necesita energía ({3} W): mientras el helicóptero esté encima, reposta automáticamente de los depósitos de líquidos de la misma red.
+Valla eléctrica de alta tensión. Los enemigos que la tocan reciben {0} de daño cada {1} s y quedan aturdidos un momento. Consume {2} W en espera y {3} W al descargar, y no descarga si la energía baja de la mitad. Las vallas colocadas juntas comparten energía: si una sola está en una red, toda la fila lo está, así que no hace falta un poste cada pocos metros. Las balas no la dañan, así que puedes disparar desde detrás; los zombis sí pueden romperla.
+El foco barre de un lado a otro un arco de {0} grados, y la alarma solo suena cuando su haz alcanza a un enemigo a menos de {1} m: recibes una notificación con la cantidad y la dirección, la luz sigue al enemigo más cercano, las defensas dormidas a menos de {2} m se despiertan y las puertas automáticas se cierran al instante. Consume {3} W al barrer y {4} W durante una alarma. Gíralo al colocarlo para elegir el centro del barrido.
+Emplazamiento pesado fijo de {0}x{1} que necesita un cañón para disparar (ponte a su lado y pulsa U para montar o quitar uno): el cañón de ametralladora usa munición de la red de almacenamiento, el cañón EM crea sus proyectiles con energía y no necesita munición, y el cañón de railgun se carga y dispara un proyectil que atraviesa toda una fila de enemigos. Apunta solo a los enemigos visibles. Si lo cubre una torre de alarma, normalmente duerme para ahorrar energía ({2} W); despierto consume {3} W, y {4}-{5} W al disparar según el cañón. Durabilidad: {6}.
+Una torre de defensa de corto alcance que solo usa energía y no necesita munición. Cada {0} s descarga sobre todos los enemigos a menos de {1} m, {2} de daño a cada uno; los enemigos alcanzados se ralentizan y quedan aturdidos {3} s. Consume {4} W en espera y {5} W al descargar; si la cubre una torre de alarma, duerme ({6} W). Durabilidad: {7}.
+Funciona solo con energía, sin materiales: cada {0} s repara por completo una cosa a menos de {1} m con menos del {2}% de durabilidad, incluidos edificios, muros, defensas y objetos desplegables normales como torretas y trampas. Primero las defensas y luego lo más dañado. Consume {3} W en espera y {4} W al reparar.

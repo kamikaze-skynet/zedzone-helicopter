@@ -1,0 +1,387 @@
+[Power] 
+Network
+All
+Materials
+Weapons
+Ammo
+Food
+Medical
+Armor
+Deployables
+Bags
+Other
+Storage Network
+Search by name…
+Sort
+Type
+Amount
+Name
+Take Amount
+Core Filters
+Take an exact amount (pick an item, enter a number)
+No access terminal nearby, and not within range of an infinite AE terminal
+Nothing stored: not enough space in the network
+Nothing on you matches items already in the network (locked bags are skipped)
+Stored {1} items ({0} kinds) in the storage network
+ (some didn't fit and stayed in your bag)
+Storage network: {1} × {0} went missing and were given back to you
+The amount must be at least 1
+Stored {0} ×{1}
+Take {0}
+Store {0}
+{0} in the network
+{0} in this stack
+OK (Enter)
+Cancel (Esc)
+Type a number, Enter to confirm
+Middle-click an item: exact amount  |  Put a bag or clothes in to empty it into the network
+Store Same
+Store All
+Press Again to Confirm
+Nothing to store (weapons, armor, ammo and bags are left alone)
+Will store {0} kinds, {1} items in total (weapons, armor, ammo and bags stay). Press [Store All] again within 5 s to confirm
+{0} is locked, left untouched
+{0} is empty
+Emptied {0}: stored {1} kinds, {2} items
+In multiplayer, only the host can use the storage network
+Container name: {0}
+(unnamed)
+Rename
+Clear Name
+Renamed: {0}
+Name cleared
+Wires hidden (they show while you place buildings; press {0} to show them again)
+Wires shown
+Only the host can use creative mode in multiplayer
+Creative mode on: free instant building, invincible, no hunger or thirst
+Creative mode off
+Gave {0} ×{1}
+Creative Mode
+Turn off creative mode
+Turn on creative mode
+Free instant building, invincible, no hunger or thirst
+Search item name or ID…
+This mod
+Items {0}–{1} of {2} (scroll to browse)
+No matching items
+Auto
+Scale: {0}
+Showing {0} of {1} kinds
+No matching items ({0} kinds in network)
+Pick an item above first
+{0}: {1} in network
+Stack
+Take to inventory
+Took {0} ×{1}
+ (inventory full or not enough)
+Nothing taken: inventory may be full
+Core filters: pick the only types this core accepts (none = accepts everything)
+Fridge ({0:0.#} m from terminal): auto-deposit only stores food, never medical items
+#{0} Storage Core ({1:0.#} m from terminal, {2} stacks / {3} cells)
+Any
+No storage core in range
+Deposits go to matching filtered cores first, then to unfiltered ones; non-matching filtered cores are skipped.
+Press {0} to open the storage network
+No access terminal nearby
+Access terminal has no power: connect it to a grid ({0:0} W)
+Online, but no storage core within {0:0} m: build one to start storing
+Online · {0} cores, {1} fridges ({2} cells) · {3} item types
+Error while scanning network: {0}
+Remote link · {0} cores
+ ({0} not found)
+Storage Network ({0} cores + {1} fridges)
+Storage Network ({0} cores)
+Cannot find the game's container window
+Storage cores are full; item returned
+No Infinite AE Terminal linked yet: build one next to your storage cores, power it, and walk near it once
+Infinite AE Terminal not found (it may have been removed)
+Infinite AE Terminal has no power; remote link unavailable
+Grid link: powering the grid {0:0} W
+Grid link: charging vehicles {0:0} W
+Grid link: idle, car below {0:0}% (kept for driving)
+Grid link: idle, car fully charged ({0:0} Wh)
+Grid link: idle, no spare power to charge the car and no shortage
+Grid link: no vehicle within {0:0} m
+[{0}]
+[{0}] ({1} vehicles in range, serving the nearest)
+vehicle
+The nearest Infinite AE Terminal is {0:0} m away, beyond its {1:0} m range: build another one nearby
+ · {0} Infinite AE Terminals linked by wire
+Liquid pump: no power
+Liquid pump: no liquid source (tank etc.) within {0:0} m
+Liquid pump: no liquid tank, empty can or bottle within {0:0} m (source has {1:0.#} L)
+Liquid pump: filling {0}, {1:0.#} L/s | source {2:0.#} L left | {3} containers with room
+Liquid pump: containers are full or can't hold this liquid (source has {0:0.#} L)
+Fuel generator: not connected to a grid
+Fuel generator: idle, grid has enough power (fuel {0:0.#} L)
+Fuel generator: no fuel — put filled fuel cans in a box within {0:0} m
+Fuel generator: no fuel — build a liquid tank or put filled fuel cans within {0:0} m
+Liquid tank: {0:0.#} / {1:0} L ({2})
+empty
+Automation
+Auto miner: no power
+Auto lumberjack: no power
+Water collector: no power
+Furnace loader: no power
+Tree planter: no power
+Auto miner: no power (supply {0:0}%)
+Auto lumberjack: no power (supply {0:0}%)
+Water collector: no power (supply {0:0}%)
+Tree planter: no power (supply {0:0}%)
+Furnace loader: no power (supply {0:0}%)
+ | low power {0:0}%, running slower
+Drone dock: no power
+Drone dock: nowhere to store items (connect a storage network, or put a box within 2 m)
+Drone dock: nothing on the ground within {0:0} m | {1} collected
+Drone dock: fetching {0} | {1} items in range | {2} collected
+Drone dock: storage is full, item dropped next to the dock
+Tree planter: {0} trees in range (max {1}), {2} still growing
+Tree planter: no twigs or wood in this grid's storage network (or boxes within 2 m); each tree uses 1 twig (or 1 wood) | {0} trees in range, {1} growing
+Tree planter: no free ground in range | {0} trees, {1} growing
+Tree planter: needs twigs
+Tree planter: couldn't plant here, will try another spot
+Tree planter: planted a tree | {0} in range, {1} growing
+Auto miner: no ore node within {0:0} m
+Auto miner: prospecting, a new ore node appears in about {0:0} s
+Auto miner: network/boxes are full, mining paused (resumes once there is space)
+Auto miner: nowhere to store ore (connect a storage network, or put a box within 2 m)
+Auto miner: mining {0}, about {1:0} left | {2} mined ({3} nodes in range)
+Auto lumberjack: no trees within {0:0} m
+Auto lumberjack: network/boxes are full, chopping paused (resumes once there is space)
+Auto lumberjack: nowhere to store wood (connect a storage network, or put a box within 2 m)
+Auto lumberjack: chopping | {0} collected ({1} trees in range)
+Water collector: no liquid tank (on the grid or within 2 m)
+Water collector: tanks are full or hold another liquid
+Water collector: {0:0.##} L/s of raw water{1}
+ (doubled in rain)
+Furnace loader: no stone or electric furnace within {0:0} m
+Furnace loader: no storage network or box (connect to a grid, or put a box within 2 m)
+Furnace loader: {0} furnaces | fed {1}, fuel {2}, collected {3} | total collected {4}
+No liquid tank to store this liquid; returned
+ + {0} liquid tank(s)
+Liquid tanks: {0} (capacity {1:0} L): 
+{0} {1:0.#} L ▸ fill my cans
+Took {1:0.#} L of {0} from the tanks into {2} container(s)
+No empty can or bottle in your backpack that can hold this liquid
+Fuel generator: running {0:0} W | fuel {1:0.#} L ({2})
+Area charger has no power
+Area charger: ready
+Area charger: no batteries on you
+Area charger: charging ({0}/{1} batteries)
+Area charger: all {0} batteries full
+Power Grid Dashboard
+{0} to close
+Closes when you leave the terminal
+Build and connect a Power Monitor Terminal first.
+Build menu → Electricity → Power Monitor Terminal
+No power grid yet.
+Build a generator or solar panel and connect a device.
+…{0} more grids not shown
+Times are in in-game hours
+▲ Shortage {0:0}%
+No load
+● Supply OK
+Grid {0}
+Gen {0} · Storage {1} · Loads {2} · Poles {3}
+Solar {0} ({1})
+{0} {1} ({2})
+Wind
+Thermo
+Fuel gen
+Crank
+Vehicle link
+Adv. solar
+Solar
+Generators {0} ({1}/{2} running)
+Generation
+Load
+{0} at full load
+Storage
+Charging {0}
+Discharging {0}
+Idle
+Off
+Short {0:0}%
+OK
+…{0} more devices
+…{0} more
+ ({0} short on this grid)
+{0}: install Overclock Module   Shift+{0}: install Efficiency Module
+{0}: install Overclock Module
+Shift+{0}: install Efficiency Module
+Removed {1} from {0}
+Installed {1} in {0}
+Could not take the module
+machine
+Fits an electric furnace, 3D printer, battery charger, electric heater or electric stove: speed ×{0:0.##}, power ×{1:0.##}. Stand next to the machine and press {2} to install; press again to remove.
+Fits an electric furnace, 3D printer, battery charger, electric heater or electric stove: power ×{0:0.##}, speed ×{1:0.##}. Stand next to the machine and press Shift+{2} to install.
+empty in ~{0:0.#} h
+full in ~{0:0.#} h
+full
+steady
+Grid {0} power shortage: only {1:0}% of demand supplied
+Grid {0} storage at {1:0}%, {2}
+Grid {0} storage {1:0}%: generators started automatically
+Grid {0} storage {1:0}%: generators stopped automatically
+Critical
+Normal
+Low
+Overclock
+Efficiency
+Too tired — rest before cranking
+Generating {0:0} W (release {1} to stop)
+Hold {0} to crank the generator
+Overclock Module
+Efficiency Module
+Press {0} to remove the {1}
+Press {0} to install an Overclock Module, Shift+{0} for an Efficiency Module
+No Overclock/Efficiency Module on you (craft one in the crafting menu)
+{0} installed: speed ×{1:0.##}, power ×{2:0.##}
+{0} removed
+No {0} on you
+Speeds up a machine but greatly increases its power draw. Stand next to an electric furnace, 3D printer or battery charger and press {0} to install.
+Lowers a machine's power draw at a small speed cost. Stand next to an electric furnace, 3D printer or battery charger and press Shift+{0} to install.
+Vehicles
+A helicopter has appeared on the helipad
+Helicopter: fuel {0:0.#} / {1:0} L | ammo {2} | press {3} to board (Shift+{3}: refuel from cans in your backpack)
+The helicopter is out of fuel: park it on a powered helipad, or press Shift+{0} to refuel from cans in your backpack
+No can of gasoline or diesel in your backpack
+Added {0:0.#} L of fuel (tank {1:0.#} / {2:0} L)
+Out of fuel, landing automatically
+Flying: fuel {0:0.#} L | ammo {1} | WASD to fly, hold left mouse to fire, {2} to land
+No ammo: carry 5.56mm or 7.62x39mm rounds
+{0} teammate(s) boarded with you
+Helicopter: fuel {0:0.#} / {1:0} L | get in, start the engine, press Space to take off
+Start the engine before taking off
+Helicopter: press Space to take off once the engine is running
+Flying: WASD to move, hold left mouse for the machine gun, Space to land | altitude {0:0}%
+No ammo: put 5.56mm or 7.62x39mm rounds in the cargo hold or your backpack
+You can't get out in the air; press Space to land first
+You can't stop the engine in flight; land first
+Press {0} to start the engine first
+The engine is starting; wait for the rotor to spin up
+Out of fuel, the engine stopped
+Helicopter
+Running
+Starting {0:0}%
+Engine
+Fuel
+Searchlight
+On
+Altitude {0:0}%   Speed {1:0.#} m/s
+{0} engine   Space take off/land   {1} searchlight   {2} get out   LMB machine gun
+Defense
+[Defense] 
+Not enough power
+Not connected to a storage network
+Handled by the host
+Shocking ({0})
+Not enough power (not shocking)
+{0}: {1:0} W
+Asleep
+On guard (alarm tower)
+On guard (own detection)
+Searchlight alarm tower: {0} enemies detected ({1})
+Sweeping, covering {0}
+Alarm ({0}, {1}) - woke {2}, doors {3}
+Machine Gun Barrel
+EM Barrel
+Railgun Barrel
+MG
+EM gun
+railgun
+EM round
+Machine gun barrel for the heavy gun emplacement. Stand next to the emplacement and press {0} to fit it; press again to remove it. Range {1:0} m. Fires 5.56/7.62/.45/9mm/.22 rounds from the storage network, {2:0}-{3:0} damage per shot.
+EM barrel for the heavy gun emplacement. Stand next to the emplacement and press {0} to fit it; press again to remove it. Range {1:0} m. It makes electromagnetic rounds from power and needs no ammo: {2:0} damage per shot, {3:0.#} shots per second, {4:0} W while firing.
+Railgun barrel for the heavy gun emplacement. Stand next to the emplacement and press {0} to fit it; press again to remove it. Range {1:0} m. Charges one shot every {2:0.#} s that deals {3:0} damage and pierces up to {4} enemies in a line. Needs no ammo; draws {5:0} W while charging.
+Firing EM rounds ({0:0} W)
+Railgun fired (pierced {0})
+Charging {0:0}% (railgun)
+Heavy gun emplacement: out of machine gun ammo (the storage network needs 5.56/7.62/.45/9mm/.22 rounds)
+{0}: remove {1} (magazine {2} x{3})
+{0}: fit {1}
+Heavy gun emplacement: carry a barrel or keep one in the storage network to fit it
+In multiplayer, only the host can fit or remove barrels
+Removed the {0} from the heavy gun emplacement
+Fitted the {0} to the heavy gun emplacement
+No barrel on you or in the storage network
+ (magazine {0} x{1})
+{0}: switch to {1}   Shift+{0}: remove
+Switched the {0} to the {1}
+No barrel
+, lit +{0:0}
+Firing (MG {0} x{1})
+Out of ammo
+Tesla
+wall
+wall (rebuild)
+Missing materials ({0})
+Repairing ({0} {1:0}%)
+{0} x{1}
+Target blocked
+On guard (MG {0} x{1})
+Asleep ({0})
+On guard ({0})
+Advanced Solar Panel
+Power Monitor Terminal
+Small Wind Turbine
+Thermoelectric Generator
+Enhanced Energy Storage
+Generator Controller
+Hand Crank Generator
+Heavy Generator Set
+Vehicle Grid Link
+Storage Core
+Storage Access Terminal
+Infinite AE Terminal
+Area Charger
+Fuel Generator
+Liquid Pump
+Liquid Tank
+Auto Miner
+Auto Lumberjack
+Water Collector
+Furnace Loader
+Auto Tree Planter
+Drone Dock
+High-Voltage Tower
+Auto Door (Large)
+Auto Door (Small)
+Auto Door (Large, Vertical)
+Auto Door (Small, Vertical)
+Helipad
+High-Voltage Fence
+Searchlight Alarm Tower
+Heavy Gun Emplacement
+Tesla Coil
+Auto Repair Station
+High-efficiency solar panel producing #x the power of a regular panel. Output still drops in rain and indoors.
+Shows generation, load and storage for its grid. Walk up to it to view, or press the hotkey to open the grid dashboard.
+Generates power from wind, up to # W, day and night. Almost nothing when calm, slightly more in rain.
+Place near furnaces or generators (within # m) to turn waste heat into power: # W per running heat source, up to #.
+Stores # Wh and charges/discharges at up to # W (#x a regular energy storage module).
+Starts the Stirling generators on its grid when storage drops below #% and stops them above #% to save fuel. The grid needs an energy storage module.
+Stand next to it and hold H to generate # W. Uses stamina. A last resort when there is no fuel or sun.
+Burns the same fuel as a Stirling generator for # W (#x), using fuel #x faster. It is loud and attracts nearby zombies.
+Connects vehicles within # m to the grid: charges the car to full with spare power, and when generation and storage cannot cover the load, the car fills the gap (up to # W) until it is down to #%. Stand next to it to see its status.
+Storage unit for the storage network, as large as the biggest storage box in the game. Build more for more space. It needs no power and takes no wire: build it within # m of a power pole or any powered device and it joins that grid automatically. Every Access Terminal and Infinite AE Terminal on the same grid can then see and take its items, at any distance. Cores within # m of a terminal also count. You can also open it directly like a box.
+Stand next to it and press N to open the storage network: search, filter and take items from every storage core and liquid tank on the same power grid, at any distance (a core or tank joins a grid when built within # m of a power pole or any powered device), plus cores within # m. Needs power (# W); the network is offline without it.
+Once powered (# W), press N anywhere within # m of it to open the storage network remotely. It sees every storage core and liquid tank on its power grid, at any distance (a core or tank joins a grid when built within # m of a power pole or any powered device), plus cores within # m of it. To use the network from farther away, build another terminal there and wire it to the same grid; terminals on different grids are separate networks.
+Connect to a grid (# W). While you stand within # m, every battery you carry (including ones inside flashlights) charges automatically.
+Converted from a portable gasoline generator (craftable at a workbench). Burns liquid fuel (fuel or biodiesel) for # W, about # L per hour. Fuel is made from fat and charcoal at a chemical bench, biodiesel from fat or vegetable oil when cooking, and oil tanks in the world also contain fuel. Fuel sources: liquid tanks, oil tanks, and filled cans or bottles in boxes or storage cores within # m, plus liquid tanks and cans anywhere in the storage network on the same power grid. Runs only when the grid is short of power or storage is below #%. Somewhat noisy.
+Once powered (# W), pumps liquid out of wild oil tanks within # m (about # L/s), filling liquid tanks in range first, then empty cans and bottles in boxes or storage cores. Range is measured from the oil tank's center, and oil tanks are long, so place the pump beside the middle of the tank.
+Stores liquid directly (fuel, biodiesel, water...), no cans needed, up to # L. It needs no power: build it within # m of a power pole or any powered device and it joins that grid automatically. Access Terminals and Infinite AE Terminals on the same grid can then show and take its liquid (pour it into a can in your backpack, or put it back in the terminal), and Fuel Generators on the grid can burn it, at any distance. Liquid Pumps fill it straight from nearby wild oil tanks.
+Mines ore nodes within # m (rock, iron, copper, niter, sulfur, salt), one ore every # s. Depleted nodes disappear and it moves on to the next; with fewer than # nodes in range it prospects a new one every # s, so it never runs dry. Once on a grid, it outputs to that grid's storage network (or boxes/tanks within # m).
+Chops trees within # m for wood, twigs and bark (one hit every # s). Once on a grid, it outputs to that grid's storage network (or boxes/tanks within # m).
+Collects raw water continuously (# L/s, doubled in rain) into liquid tanks on the same grid or within # m. Boil it into clean water when cooking.
+Runs stone and electric furnaces within # m: feeds ore, metal scrap and waste plastic from the storage network, adds wood as fuel for stone furnaces, and collects the output back into the network. Light a stone furnace yourself the first time.
+Plants trees from cuttings (# twig each, or # wood if out of twigs) on free ground within # m, one every # s, up to #. Saplings grow in about # minutes; the Auto Lumberjack waits until they are grown. Twigs come from the grid's storage network or boxes within # m. Pair it with an Auto Lumberjack for endless wood.
+Once powered, launches a collector drone that picks up items lying on the ground within # m and brings them back into the grid's storage network (or boxes within # m). It ignores turrets, traps and liquids. If storage is full, items are dropped next to the dock.
+A steel lattice tower whose wires reach up to # m to another tower and # m to a regular power pole, for linking distant power stations back to base. Once built, it connects automatically to towers in range. The red aviation light on top blinks.
+Slides open automatically when you or a teammate comes within # m and closes about # s after you leave; zombies and enemies can't open it. Lintel light: red = closed, green = open. Needs power: build it within # m of a power pole or any powered device (the grid must have generation or stored energy). Without power it works as a normal manual door. Durability: #.
+A helicopter appears on the pad once it is built (one per pad). It works like a car: get in, inspect it or search its cargo hold, start the engine from the driver's seat, press Space to take off or land, and fly with WASD over buildings and trees; teammates board with you. Hold the left mouse button in flight to fire the machine gun (#mm or #x#mm rounds from the cargo hold or your backpack). The pad needs power (# W): while the helicopter sits on it, it refuels from liquid tanks on the same grid.
+High-voltage electric fence. Enemies that touch it take # damage every # s and are briefly stunned. It draws # W on standby and # W while shocking, and does not shock when power is below half. Fences placed next to each other share power: if one of them is on a grid, the whole row is, so you do not need a power pole every few tiles. Bullets cannot damage it, so you can shoot from behind it; zombies can still break it.
+The searchlight sweeps back and forth across a #-degree arc, and the alarm only sounds when its beam hits an enemy within # m: you get a notification with the count and direction, the light locks onto the nearest enemy, sleeping defense buildings within # m wake up and auto doors close at once. It draws # W while sweeping and # W during an alarm. Rotate it when placing to choose where the sweep is centered.
+A #x# heavy fixed gun emplacement that needs a barrel to fire (stand next to it and press U to fit or remove one): the machine gun barrel uses ammo from the storage network, the EM barrel makes its rounds from power and needs no ammo, and the railgun barrel charges up and fires a shot that pierces a whole line of enemies. It aims at enemies it can see on its own. When covered by an alarm tower it sleeps to save power (# W); awake it draws # W, and #-# W while firing, depending on the barrel. Durability: #.
+A short-range defense tower that runs on power alone and needs no ammo. Every # s it zaps every enemy within # m for # damage each; enemies it hits are slowed and stunned for # s. It draws # W on standby and # W while discharging; when covered by an alarm tower it sleeps (# W). Durability: #.
+Runs on power alone, no materials needed: every # s it fully repairs one thing within # m that is below #% durability, including buildings, walls, defense structures, and vanilla deployables such as turrets and traps. Defense structures come first, then whatever is most damaged. It draws # W on standby and # W while repairing.

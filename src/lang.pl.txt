@@ -1,0 +1,387 @@
+[Energia]
+Sieć
+Wszystko
+Materiały
+Broń
+Amunicja
+Jedzenie
+Medyczne
+Pancerz
+Do postawienia
+Torby
+Inne
+Sieć magazynowa
+Szukaj po nazwie…
+Sortuj
+Typ
+Ilość
+Nazwa
+Weź ilość
+Filtry rdzenia
+Weź dokładną ilość (wybierz przedmiot, wpisz liczbę)
+Brak terminala dostępu w pobliżu i jesteś poza zasięgiem nieskończonego terminala AE
+Nic nie zapisano: za mało miejsca w sieci
+Nie masz przy sobie niczego, co już jest w sieci (zamknięte torby są pomijane)
+Umieszczono w sieci magazynowej {1} szt. ({0} rodzajów)
+ (część się nie zmieściła i została w torbie)
+Sieć magazynowa: brakowało {1} × {0}, zwrócono je tobie
+Ilość musi wynosić co najmniej 1
+Umieszczono: {0} ×{1}
+Weź: {0}
+Odłóż: {0}
+W sieci: {0}
+W tym stosie: {0}
+OK (Enter)
+Anuluj (Esc)
+Wpisz liczbę, Enter potwierdza
+Środkowy przycisk na przedmiocie: dokładna ilość  |  Połóż plecak lub ubranie, aby opróżnić je do sieci
+Schowaj takie same
+Schowaj wszystko
+Naciśnij ponownie
+Nie ma czego schować (broń, pancerz, amunicja i plecaki zostają)
+Zostanie schowanych {0} rodzajów, łącznie {1} przedmiotów (broń, pancerz, amunicja i plecaki zostają). Naciśnij [Schowaj wszystko] ponownie w ciągu 5 s, aby potwierdzić
+{0} jest zablokowany, nie ruszono
+{0} jest pusty
+Opróżniono {0}: schowano {1} rodzajów, {2} przedmiotów
+W trybie wieloosobowym z sieci magazynowej może korzystać tylko host
+Nazwa pojemnika: {0}
+(bez nazwy)
+Zmień nazwę
+Usuń nazwę
+Zmieniono nazwę: {0}
+Nazwa usunięta
+Kable ukryte (widać je podczas stawiania budynków; naciśnij {0}, aby je znów pokazać)
+Kable widoczne
+W trybie wieloosobowym z trybu kreatywnego może korzystać tylko host
+Tryb kreatywny włączony: darmowa natychmiastowa budowa, nieśmiertelność, brak głodu i pragnienia
+Tryb kreatywny wyłączony
+Dano: {0} ×{1}
+Tryb kreatywny
+Wyłącz tryb kreatywny
+Włącz tryb kreatywny
+Darmowa natychmiastowa budowa · nieśmiertelność · brak głodu i pragnienia
+Szukaj przedmiotu po nazwie lub ID…
+Ten mod
+Przedmioty {0}–{1} z {2} (przewiń kółkiem)
+Brak pasujących przedmiotów
+Auto
+Skala: {0}
+Wyświetlono {0} z {1} rodzajów
+Brak pasujących przedmiotów ({0} rodzajów w sieci)
+Najpierw wybierz przedmiot powyżej
+{0}: {1} w sieci
+Stos
+Weź do ekwipunku
+Wzięto {0} ×{1}
+ (ekwipunek pełny lub za mało)
+Nic nie wzięto: ekwipunek może być pełny
+Filtry rdzenia: zaznacz jedyne typy, które przyjmuje ten rdzeń (brak = przyjmuje wszystko)
+Lodówka ({0:0.#} m od terminala): automatyczne odkładanie przyjmuje tylko jedzenie, nigdy leki
+#{0} Rdzeń magazynowy ({1:0.#} m od terminala, {2} stosów / {3} miejsc)
+Dowolne
+Brak rdzenia magazynowego w zasięgu
+Przedmioty trafiają najpierw do rdzeni z pasującym filtrem, potem do rdzeni bez filtra; rdzenie z niepasującym filtrem są pomijane.
+Naciśnij {0}, aby otworzyć sieć magazynową
+Brak terminala dostępu w pobliżu
+Terminal dostępu nie ma prądu: podłącz go do sieci ({0:0} W)
+Online, ale brak rdzenia magazynowego w promieniu {0:0} m: zbuduj jeden, aby zacząć przechowywać
+Online · rdzenie: {0}, lodówki: {1} ({2} miejsc) · rodzaje przedmiotów: {3}
+Błąd podczas skanowania sieci: {0}
+Połączenie zdalne · rdzenie: {0}
+ (nie znaleziono: {0})
+Sieć magazynowa (rdzenie: {0} + lodówki: {1})
+Sieć magazynowa (rdzenie: {0})
+Nie znaleziono okna pojemnika gry
+Rdzenie magazynowe są pełne; przedmiot zwrócony
+Brak połączonego Nieskończonego terminala AE: zbuduj go obok rdzeni, podłącz zasilanie i podejdź do niego raz
+Nie znaleziono Nieskończonego terminala AE (mógł zostać rozebrany)
+Nieskończony terminal AE nie ma prądu; dostęp zdalny niemożliwy
+Przyłącze sieciowe: zasila sieć {0:0} W
+Przyłącze sieciowe: ładuje pojazdy {0:0} W
+Przyłącze sieciowe: bezczynne, auto poniżej {0:0}% (zostawione na jazdę)
+Przyłącze sieciowe: bezczynne, auto w pełni naładowane ({0:0} Wh)
+Przyłącze sieciowe: bezczynne, brak nadwyżki do ładowania i brak niedoboru
+Przyłącze sieciowe: brak pojazdu w promieniu {0:0} m
+[{0}]
+[{0}] (pojazdy w zasięgu: {1}, obsługiwany najbliższy)
+pojazd
+Najbliższy Nieskończony terminal AE jest {0:0} m dalej, poza zasięgiem {1:0} m: zbuduj kolejny w pobliżu
+ · Nieskończone terminale AE połączone kablem: {0}
+Pompa cieczy: brak prądu
+Pompa cieczy: brak źródła cieczy (zbiornik itp.) w promieniu {0:0} m
+Pompa cieczy: brak zbiornika cieczy, pustego kanistra lub butelki w promieniu {0:0} m (w źródle {1:0.#} L)
+Pompa cieczy: napełnia {0}, {1:0.#} L/s | w źródle zostało {2:0.#} L | pojemniki z miejscem: {3}
+Pompa cieczy: pojemniki są pełne lub nie mieszczą tej cieczy (w źródle {0:0.#} L)
+Generator paliwowy: niepodłączony do sieci
+Generator paliwowy: bezczynny, sieć ma dość prądu (paliwo {0:0.#} L)
+Generator paliwowy: brak paliwa — włóż pełne kanistry do skrzyni w promieniu {0:0} m
+Generator paliwowy: brak paliwa — zbuduj zbiornik cieczy lub postaw pełne kanistry w promieniu {0:0} m
+Zbiornik cieczy: {0:0.#} / {1:0} L ({2})
+pusty
+Automatyzacja
+Automatyczna kopalnia: brak prądu
+Automatyczny drwal: brak prądu
+Zbieracz wody: brak prądu
+Podajnik pieca: brak prądu
+Sadzarka drzew: brak prądu
+Automatyczna kopalnia: brak prądu (zasilanie {0:0}%)
+Automatyczny drwal: brak prądu (zasilanie {0:0}%)
+Zbieracz wody: brak prądu (zasilanie {0:0}%)
+Sadzarka drzew: brak prądu (zasilanie {0:0}%)
+Podajnik pieca: brak prądu (zasilanie {0:0}%)
+ | mało prądu {0:0}%, działa wolniej
+Stacja drona: brak prądu
+Stacja drona: brak miejsca na przedmioty (podłącz sieć magazynową lub postaw skrzynię w promieniu 2 m)
+Stacja drona: nic nie leży w promieniu {0:0} m | zebrano: {1}
+Stacja drona: leci po {0} | w zasięgu: {1} | zebrano: {2}
+Stacja drona: magazyn pełny, przedmiot zostawiony obok stacji
+Sadzarka drzew: drzewa w zasięgu: {0} (maks. {1}), rośnie jeszcze: {2}
+Sadzarka drzew: brak gałązek i drewna w sieci magazynowej tej sieci (ani w skrzyniach w promieniu 2 m); każde drzewo zużywa 1 gałązkę (lub 1 drewno) | drzewa w zasięgu: {0}, rośnie: {1}
+Sadzarka drzew: brak wolnego terenu w zasięgu | drzewa: {0}, rośnie: {1}
+Sadzarka drzew: potrzebne gałązki
+Sadzarka drzew: nie udało się tu posadzić, spróbuje w innym miejscu
+Sadzarka drzew: posadzono drzewo | w zasięgu: {0}, rośnie: {1}
+Automatyczna kopalnia: brak złóż w promieniu {0:0} m
+Automatyczna kopalnia: poszukiwania, nowe złoże pojawi się za około {0:0} s
+Automatyczna kopalnia: sieć/skrzynie pełne, wydobycie wstrzymane (wznowi się, gdy zwolni się miejsce)
+Automatyczna kopalnia: brak miejsca na rudę (podłącz sieć magazynową lub postaw skrzynię w promieniu 2 m)
+Automatyczna kopalnia: wydobywa {0}, zostało około {1:0} | wydobyto: {2} (złoża w zasięgu: {3})
+Automatyczny drwal: brak drzew w promieniu {0:0} m
+Automatyczny drwal: sieć/skrzynie pełne, wycinka wstrzymana (wznowi się, gdy zwolni się miejsce)
+Automatyczny drwal: brak miejsca na drewno (podłącz sieć magazynową lub postaw skrzynię w promieniu 2 m)
+Automatyczny drwal: ścina | zebrano: {0} (drzewa w zasięgu: {1})
+Zbieracz wody: brak zbiornika cieczy (w sieci lub w promieniu 2 m)
+Zbieracz wody: zbiorniki są pełne lub zawierają inną ciecz
+Zbieracz wody: {0:0.##} L/s surowej wody{1}
+ (podwójnie w deszczu)
+Podajnik pieca: brak pieca kamiennego lub elektrycznego w promieniu {0:0} m
+Podajnik pieca: brak sieci magazynowej lub skrzyni (podłącz do sieci lub postaw skrzynię w promieniu 2 m)
+Podajnik pieca: piece: {0} | załadowano {1}, paliwo {2}, odebrano {3} | łącznie odebrano {4}
+Brak zbiornika cieczy na tę ciecz; zwrócono
+ + zbiorniki cieczy: {0}
+Zbiorniki cieczy: {0} (pojemność {1:0} L):
+{0} {1:0.#} L ▸ napełnij moje kanistry
+Pobrano {1:0.#} L {0} ze zbiorników do pojemników: {2}
+W plecaku nie ma pustego kanistra ani butelki na tę ciecz
+Generator paliwowy: pracuje {0:0} W | paliwo {1:0.#} L ({2})
+Ładowarka obszarowa nie ma prądu
+Ładowarka obszarowa: gotowa
+Ładowarka obszarowa: nie masz baterii
+Ładowarka obszarowa: ładuje ({0}/{1} baterii)
+Ładowarka obszarowa: wszystkie baterie ({0}) naładowane
+Panel sieci energetycznej
+{0}, aby zamknąć
+Zamyka się po odejściu od terminala
+Najpierw zbuduj i podłącz Terminal monitorowania energii.
+Menu budowy → Elektryczność → Terminal monitorowania energii
+Brak sieci energetycznej.
+Zbuduj generator lub panel słoneczny i podłącz urządzenie.
+…nie pokazano jeszcze {0} sieci
+Czas w godzinach gry
+▲ Niedobór {0:0}%
+Brak obciążenia
+● Zasilanie OK
+Sieć {0}
+Prod. {0} · Magazyn {1} · Odbiorniki {2} · Słupy {3}
+Słońce {0} ({1})
+{0} {1} ({2})
+Wiatr
+Termo
+Gen. paliwowy
+Korba
+Przyłącze auta
+Słońce zaaw.
+Słońce
+Generatory {0} (pracuje {1}/{2})
+Produkcja
+Obciążenie
+{0} przy pełnym obciążeniu
+Magazyn
+Ładowanie {0}
+Rozładowanie {0}
+Bezczynny
+Wył.
+Niedobór {0:0}%
+OK
+…jeszcze {0} urządzeń
+…jeszcze {0}
+ (niedobór w tej sieci: {0})
+{0}: zamontuj moduł podkręcania   Shift+{0}: zamontuj moduł oszczędzania
+{0}: zamontuj moduł podkręcania
+Shift+{0}: zamontuj moduł oszczędzania
+Zdjęto {1} z {0}
+Zamontowano {1} w {0}
+Nie udało się wziąć modułu
+maszyna
+Pasuje do pieca elektrycznego, drukarki 3D, ładowarki baterii, grzejnika elektrycznego lub kuchenki elektrycznej: szybkość ×{0:0.##}, prąd ×{1:0.##}. Stań obok maszyny i naciśnij {2}, aby zamontować; naciśnij ponownie, aby zdjąć.
+Pasuje do pieca elektrycznego, drukarki 3D, ładowarki baterii, grzejnika elektrycznego lub kuchenki elektrycznej: prąd ×{0:0.##}, szybkość ×{1:0.##}. Stań obok maszyny i naciśnij Shift+{2}, aby zamontować.
+pusty za ~{0:0.#} h
+pełny za ~{0:0.#} h
+pełny
+stabilnie
+Sieć {0} niedobór energii: pokryto tylko {1:0}% zapotrzebowania
+Sieć {0} magazyn na {1:0}%, {2}
+Sieć {0} magazyn {1:0}%: generatory uruchomione automatycznie
+Sieć {0} magazyn {1:0}%: generatory zatrzymane automatycznie
+Krytyczne
+Normalne
+Niskie
+Podkręcanie
+Oszczędzanie
+Zbyt zmęczony — odpocznij, zanim zaczniesz kręcić
+Wytwarzanie {0:0} W (puść {1}, aby przestać)
+Przytrzymaj {0}, aby kręcić generatorem
+Moduł podkręcania
+Moduł oszczędzania
+Naciśnij {0}, aby zdjąć {1}
+Naciśnij {0}, aby zamontować moduł podkręcania, Shift+{0} — moduł oszczędzania
+Nie masz modułu podkręcania/oszczędzania (wytwórz go w menu wytwarzania)
+Zamontowano {0}: szybkość ×{1:0.##}, prąd ×{2:0.##}
+Zdjęto {0}
+Nie masz: {0}
+Przyspiesza maszynę, ale mocno zwiększa jej zużycie prądu. Stań obok pieca elektrycznego, drukarki 3D lub ładowarki baterii i naciśnij {0}, aby zamontować.
+Zmniejsza zużycie prądu maszyny kosztem odrobiny szybkości. Stań obok pieca elektrycznego, drukarki 3D lub ładowarki baterii i naciśnij Shift+{0}, aby zamontować.
+Pojazdy
+Na lądowisku pojawił się helikopter
+Helikopter: paliwo {0:0.#} / {1:0} L | amunicja {2} | {3} — wsiądź (Shift+{3}: zatankuj z kanistrów w plecaku)
+Helikopter nie ma paliwa: postaw go na zasilanym lądowisku lub naciśnij Shift+{0}, aby zatankować z kanistrów w plecaku
+W plecaku nie ma kanistra z benzyną ani olejem napędowym
+Zatankowano {0:0.#} L (bak {1:0.#} / {2:0} L)
+Brak paliwa, automatyczne lądowanie
+W locie: paliwo {0:0.#} L | amunicja {1} | WASD — lot, przytrzymaj LPM, aby strzelać, {2} — lądowanie
+Brak amunicji: potrzebne naboje 5.56mm lub 7.62x39mm
+Wsiadło z tobą towarzyszy: {0}
+Helikopter: paliwo {0:0.#} / {1:0} L | wsiądź, uruchom silnik, Spacja — start
+Uruchom silnik przed startem
+Helikopter: gdy silnik pracuje, naciśnij Spację, aby wystartować
+W locie: WASD — ruch, przytrzymaj LPM — karabin, Spacja — lądowanie | wysokość {0:0}%
+Brak amunicji: włóż naboje 5.56mm lub 7.62x39mm do ładowni lub plecaka
+W powietrzu nie można wysiąść — najpierw wyląduj Spacją
+W locie nie można wyłączyć silnika — najpierw wyląduj
+Najpierw uruchom silnik klawiszem {0}
+Silnik się uruchamia — poczekaj, aż wirnik nabierze obrotów
+Brak paliwa, silnik zgasł
+Helikopter
+Pracuje
+Uruchamianie {0:0}%
+Silnik
+Paliwo
+Reflektor
+Wł.
+Wysokość {0:0}%   Prędkość {1:0.#} m/s
+{0} silnik   Spacja start/lądowanie   {1} reflektor   {2} wysiądź   LPM karabin
+Obrona
+[Obrona] 
+Za mało energii
+Brak połączenia z siecią magazynową
+Obsługiwane przez hosta
+Rażenie prądem ({0})
+Za mało prądu (nie razi)
+{0}: {1:0} W
+Śpi
+W gotowości (wieża alarmowa)
+W gotowości (własne wykrywanie)
+Reflektorowa wieża alarmowa: wykryto wrogów: {0} ({1})
+Patroluje, obejmuje {0}
+Alarm ({0}, {1}) – obudzono {2}, drzwi {3}
+Lufa karabinu maszynowego
+Lufa EM
+Lufa działa szynowego
+karabin maszynowy
+działo EM
+działo szynowe
+pocisk EM
+Lufa karabinu maszynowego do ciężkiego stanowiska ogniowego. Stań obok stanowiska i naciśnij {0}, aby ją zamontować; naciśnij ponownie, aby ją zdjąć. Zasięg {1:0} m. Strzela amunicją 5.56/7.62/.45/9mm/.22 z sieci magazynowej, {2:0}–{3:0} obrażeń na strzał.
+Lufa EM do ciężkiego stanowiska ogniowego. Stań obok stanowiska i naciśnij {0}, aby ją zamontować; naciśnij ponownie, aby ją zdjąć. Zasięg {1:0} m. Tworzy pociski elektromagnetyczne z energii i nie potrzebuje amunicji: {2:0} obrażeń na strzał, {3:0.#} strzałów na sekundę, {4:0} W podczas strzelania.
+Lufa działa szynowego do ciężkiego stanowiska ogniowego. Stań obok stanowiska i naciśnij {0}, aby ją zamontować; naciśnij ponownie, aby ją zdjąć. Zasięg {1:0} m. Co {2:0.#} s ładuje strzał zadający {3:0} obrażeń, który przebija do {4} wrogów w jednej linii. Bez amunicji; podczas ładowania {5:0} W.
+Ogień pociskami EM ({0:0} W)
+Strzał z działa szynowego (przebito {0})
+Ładowanie {0:0}% (działo szynowe)
+Ciężkie stanowisko ogniowe: brak amunicji do karabinu maszynowego (sieć magazynowa potrzebuje amunicji 5.56/7.62/.45/9mm/.22)
+{0}: zdejmij {1} (magazynek {2} x{3})
+{0}: zamontuj {1}
+Ciężkie stanowisko ogniowe: aby zamontować lufę, musisz ją mieć przy sobie lub w sieci magazynowej
+W trybie wieloosobowym tylko gospodarz może montować i zdejmować lufy
+Zdjęto z ciężkiego stanowiska ogniowego: {0}
+Zamontowano na ciężkim stanowisku ogniowym: {0}
+Nie masz lufy, nie ma jej też w sieci magazynowej
+(magazynek {0} x{1})
+{0}: zmień na {1}   Shift+{0}: zdejmij
+Zmieniono {0} na {1}
+Brak lufy
+, podświetlony +{0:0}
+Ogień (karabin maszynowy {0} x{1})
+Brak amunicji
+Tesla
+ściana
+ściana (odbudowa)
+Brak materiałów ({0})
+Naprawa ({0} {1:0}%)
+{0} x{1}
+Cel zasłonięty
+Czujne (karabin maszynowy {0} x{1})
+Uśpione ({0})
+Czujne ({0})
+Ulepszony panel słoneczny
+Terminal monitorowania energii
+Mała turbina wiatrowa
+Generator termoelektryczny
+Ulepszony magazyn energii
+Sterownik generatorów
+Generator na korbę
+Ciężki zespół prądotwórczy
+Przyłącze sieciowe pojazdu
+Rdzeń magazynowy
+Terminal dostępu do magazynu
+Nieskończony terminal AE
+Ładowarka obszarowa
+Generator paliwowy
+Pompa cieczy
+Zbiornik cieczy
+Automatyczna kopalnia
+Automatyczny drwal
+Zbieracz wody
+Podajnik pieca
+Automatyczna sadzarka drzew
+Stacja drona
+Słup wysokiego napięcia
+Drzwi automatyczne (duże)
+Drzwi automatyczne (małe)
+Drzwi automatyczne (duże, pionowe)
+Drzwi automatyczne (małe, pionowe)
+Lądowisko dla helikopterów
+Ogrodzenie wysokiego napięcia
+Reflektorowa wieża alarmowa
+Ciężkie stanowisko ogniowe
+Cewka Tesli
+Automatyczna stacja naprawcza
+Wysokowydajny panel słoneczny dający {0}× więcej energii niż zwykły panel. W deszczu i w pomieszczeniach wydajność też spada.
+Pokazuje produkcję, obciążenie i magazyn swojej sieci. Podejdź, aby zobaczyć, albo otwórz panel sieci skrótem klawiszowym.
+Wytwarza prąd z wiatru, do {0} W, w dzień i w nocy. Bez wiatru prawie nic, w deszczu trochę więcej.
+Postaw przy piecach lub generatorach (w promieniu {0} m), aby zamieniać ciepło odpadowe na prąd: {1} W na każde działające źródło ciepła, maks. {2}.
+Mieści {0} Wh, ładowanie/rozładowanie do {1} W ({2}× zwykły magazyn energii).
+Uruchamia generatory Stirlinga w swojej sieci, gdy magazyn spadnie poniżej {0}%, i wyłącza je powyżej {1}%, oszczędzając paliwo. Sieć potrzebuje magazynu energii.
+Stań obok i przytrzymaj H, aby wytwarzać {0} W. Zużywa wytrzymałość. Ostateczność, gdy nie ma paliwa ani słońca.
+Spala to samo paliwo co generator Stirlinga, dając {0} W ({1}×), ale zużywa paliwo {2}× szybciej. Głośny, przyciąga pobliskie zombie.
+Podłącza pojazdy w promieniu {0} m do sieci: ładuje auto do pełna nadwyżką prądu, a gdy produkcja i magazyn nie pokrywają obciążenia, auto uzupełnia brak (do {1} W), aż spadnie do {2}%. Stań obok, aby zobaczyć stan.
+Jednostka magazynowa sieci magazynowej, tak duża jak największa skrzynia w grze. Buduj więcej, aby mieć więcej miejsca. Nie potrzebuje prądu ani kabla: zbudowany w promieniu {0} m od słupa lub dowolnego zasilanego urządzenia sam dołącza do tej sieci. Wtedy każdy Terminal dostępu i Nieskończony terminal AE w tej samej sieci widzi i wydaje jego przedmioty z dowolnej odległości. Rdzenie w promieniu {1} m od terminala też się liczą. Można go też otworzyć bezpośrednio jak skrzynię.
+Stań obok i naciśnij N, aby otworzyć sieć magazynową: wyszukuj, filtruj i bierz przedmioty ze wszystkich rdzeni magazynowych i zbiorników cieczy tej samej sieci energetycznej, z dowolnej odległości (rdzeń lub zbiornik dołącza do sieci, gdy zbudujesz go w promieniu {0} m od słupa lub zasilanego urządzenia), a także z rdzeni w promieniu {1} m. Wymaga prądu ({2} W); bez niego sieć jest offline.
+Po podłączeniu prądu ({0} W) naciśnij N w dowolnym miejscu w promieniu {1} m, aby zdalnie otworzyć sieć magazynową. Widzi wszystkie rdzenie magazynowe i zbiorniki cieczy swojej sieci energetycznej z dowolnej odległości (rdzeń lub zbiornik dołącza do sieci, gdy zbudujesz go w promieniu {2} m od słupa lub zasilanego urządzenia), a także rdzenie w promieniu {3} m od siebie. Aby korzystać z sieci dalej, zbuduj tam kolejny terminal i połącz go kablem z tą samą siecią; terminale różnych sieci to osobne sieci.
+Podłącz do sieci ({0} W). Gdy stoisz w promieniu {1} m, wszystkie noszone baterie (także w latarkach) ładują się automatycznie.
+Przerobiony z przenośnego generatora benzynowego (do wytworzenia przy warsztacie). Spala paliwo płynne (paliwo lub biodiesel), dając {0} W i zużywając około {1} l na godzinę. Paliwo wytwarza się z tłuszczu i węgla drzewnego przy stole chemicznym, a biodiesel z tłuszczu lub oleju roślinnego podczas gotowania; paliwo jest też w zbiornikach ropy na mapie. Źródła paliwa: zbiorniki cieczy, zbiorniki ropy oraz kanistry i butelki z paliwem w skrzyniach lub rdzeniach magazynu w promieniu {2} m, a także zbiorniki i kanistry w sieci magazynowej tej samej sieci energetycznej, w dowolnej odległości. Działa tylko, gdy w sieci brakuje prądu lub magazyn jest poniżej {3}%. Trochę hałasuje.
+Po podłączeniu prądu ({0} W) wypompowuje ciecz z dzikich zbiorników ropy w promieniu {1} m (około {2} L/s): najpierw napełnia zbiorniki cieczy w zasięgu, potem puste kanistry i butelki w skrzyniach lub rdzeniach magazynowych. Zasięg liczy się od środka zbiornika ropy, a zbiorniki są długie, więc postaw pompę przy środku zbiornika.
+Przechowuje ciecz bezpośrednio (paliwo, biodiesel, wodę…), bez kanistrów, do {0} L. Nie potrzebuje prądu: zbudowany w promieniu {1} m od słupa lub zasilanego urządzenia sam dołącza do tej sieci. Wtedy Terminale dostępu i Nieskończone terminale AE tej sieci pokazują i wydają jego ciecz (przelej ją do kanistra w plecaku albo oddaj do terminala), a Generatory paliwowe w sieci mogą ją spalać z dowolnej odległości. Pompy cieczy napełniają go prosto z pobliskich dzikich zbiorników ropy.
+Wydobywa złoża w promieniu {0} m (kamień, żelazo, miedź, saletra, siarka, sól), jedną rudę co {1} s. Wyczerpane złoża znikają, a maszyna przechodzi do następnego; gdy w zasięgu jest mniej niż {2} złóż, co {3} s odkrywa nowe, więc nigdy się nie kończą. W sieci oddaje urobek do sieci magazynowej tej sieci (lub do skrzyń/zbiorników w promieniu {4} m).
+Ścina drzewa w promieniu {0} m, zbierając drewno, gałązki i korę (jedno uderzenie co {1} s). W sieci oddaje urobek do sieci magazynowej tej sieci (lub do skrzyń/zbiorników w promieniu {2} m).
+Stale zbiera surową wodę ({0} L/s, podwójnie w deszczu) do zbiorników cieczy w tej samej sieci lub w promieniu {1} m. Zagotuj ją podczas gotowania, aby uzyskać czystą wodę.
+Obsługuje piece kamienne i elektryczne w promieniu {0} m: dokłada rudę, złom metalowy i odpady plastikowe z sieci magazynowej, dokłada drewno jako paliwo do pieców kamiennych i odbiera produkty z powrotem do sieci. Piec kamienny za pierwszym razem rozpal samodzielnie.
+Sadzi drzewa z sadzonek ({0} gałązka na drzewo lub {1} drewno, gdy brak gałązek) na wolnym terenie w promieniu {2} m, jedno co {3} s, maks. {4}. Sadzonki rosną około {5} minut; Automatyczny drwal czeka, aż urosną. Gałązki pochodzą z sieci magazynowej sieci lub ze skrzyń w promieniu {6} m. Razem z Automatycznym drwalem daje nieskończone drewno.
+Po podłączeniu prądu wypuszcza drona zbierającego, który podnosi przedmioty leżące na ziemi w promieniu {0} m i zanosi je do sieci magazynowej sieci (lub do skrzyń w promieniu {1} m). Ignoruje wieżyczki, pułapki i ciecze. Gdy magazyn jest pełny, przedmioty są zostawiane obok stacji.
+Stalowy kratownicowy słup, którego przewody sięgają do {0} m do innego słupa wysokiego napięcia i {1} m do zwykłego słupa – do łączenia odległych elektrowni z bazą. Po zbudowaniu sam łączy się ze słupami w zasięgu. Czerwone światło ostrzegawcze na szczycie miga.
+Rozsuwają się same, gdy ty lub członek drużyny podejdziecie na mniej niż {0} m, i zamykają się ok. {1} s po odejściu; zombie i wrogowie nie mogą ich otworzyć. Lampka: czerwona = zamknięte, zielona = otwarte. Wymagają prądu: zbuduj w promieniu {2} m od słupa lub dowolnego urządzenia w sieci (sieć musi mieć produkcję lub zmagazynowaną energię). Bez prądu działają jak zwykłe drzwi. Wytrzymałość: {3}.
+Po zbudowaniu na lądowisku pojawia się helikopter (jeden na lądowisko). Działa jak samochód: można do niego wsiąść, obejrzeć go lub przeszukać ładownię; z fotela pilota uruchom silnik, Spacją startuj lub ląduj i lataj na WASD nad budynkami i drzewami. Towarzysze wsiadają razem z tobą. W locie przytrzymaj lewy przycisk myszy, aby strzelać z karabinu maszynowego (naboje {0}mm lub {1}x{2}mm z ładowni lub plecaka). Lądowisko wymaga prądu ({3} W): gdy helikopter na nim stoi, sam tankuje ze zbiorników cieczy tej samej sieci.
+Elektryczne ogrodzenie wysokiego napięcia. Wrogowie, którzy go dotkną, co {1} s otrzymują {0} obrażeń i na chwilę ogłuszeni. W trybie czuwania pobiera {2} W, podczas rażenia {3} W; gdy zasilanie spada poniżej połowy, nie razi. Ogrodzenia ustawione obok siebie dzielą prąd: jeśli jedno jest w sieci, cały rząd ma zasilanie, więc nie trzeba stawiać słupa co kilka pól. Kule go nie uszkadzają, więc możesz strzelać zza niego; zombie nadal mogą je zniszczyć.
+Reflektor omiata łukiem {0} stopni w lewo i w prawo, a alarm rozlega się tylko wtedy, gdy jego wiązka trafi we wroga w promieniu {1} m: dostajesz powiadomienie z liczbą i kierunkiem, światło śledzi najbliższego wroga, uśpione budowle obronne w promieniu {2} m budzą się, a drzwi automatyczne zamykają się natychmiast. Pobiera {3} W podczas omiatania i {4} W podczas alarmu. Obróć go przy stawianiu, aby wybrać środek omiatania.
+Ciężkie, stałe stanowisko ogniowe {0}x{1}, które do strzelania potrzebuje lufy (stań obok i naciśnij U, aby zamontować lub zdjąć lufę): lufa karabinu maszynowego używa amunicji z sieci magazynowej, lufa EM tworzy pociski z energii i nie potrzebuje amunicji, a lufa działa szynowego ładuje się i wystrzeliwuje pocisk przebijający cały szereg wrogów. Samo celuje w widocznych wrogów. W zasięgu wieży alarmowej na co dzień śpi, oszczędzając energię ({2} W); w stanie czuwania pobiera {3} W, a podczas strzelania {4}–{5} W zależnie od lufy. Wytrzymałość: {6}.
+Wieża obronna krótkiego zasięgu działająca wyłącznie na energię, bez amunicji. Co {0} s razi wszystkich wrogów w promieniu {1} m, każdego za {2} obrażeń; trafieni wrogowie zwalniają i są ogłuszeni na {3} s. Pobiera {4} W w spoczynku i {5} W podczas wyładowania; w zasięgu wieży alarmowej śpi ({6} W). Wytrzymałość: {7}.
+Działa wyłącznie na energię, bez materiałów: co {0} s w pełni naprawia jedną rzecz w promieniu {1} m o wytrzymałości poniżej {2}%, w tym budynki, ściany, obiekty obronne oraz zwykłe przedmioty rozstawiane, takie jak wieżyczki i pułapki. Najpierw obiekty obronne, potem najbardziej uszkodzone. Pobiera {3} W w spoczynku i {4} W podczas naprawy.
