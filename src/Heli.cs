@@ -2564,11 +2564,13 @@ internal static partial class Heli
 		list.AddRange(Carried(pc));
 		bool flag = false;
 		int[] ammoIds = AmmoIds;
+		int usedAmmo = -1;
 		foreach (int id in ammoIds)
 		{
 			if (AutoIO.Take(list, id, 1f) >= 1f)
 			{
 				flag = true;
+				usedAmmo = id;
 				break;
 			}
 		}
@@ -2649,6 +2651,7 @@ internal static partial class Heli
 			Report.Note($"HELI 機槍命中 {value3}，傷害 {HeliPlugin.HeliGunDamage.Value:0}，剩 HP {value2:0.#}");
 		}
 		HeliAudio.Gun(gunPos);
+		HeliCasings.Give(pc, v, usedAmmo);
 		try
 		{
 			GameController.instance.PlayerNoise(((Vector2)(val2)), HeliPlugin.HeliNoise.Value, false, true, ((BasicCharacterController)pc).characterData.zLevel, (BasicCharacterController)null);

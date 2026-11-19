@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0
+- Spent casings come back: every door gun round gives back its 5.56x45 Shell or 7.62x39 Shell (onto a stack in your bag, else the cargo hold, else a new spot in your bag).
+- If nothing reloads those rounds from casings yet (the Tank mod adds the same recipes), the reloader gets one: 10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds.
+- Rockets start clear of the helicopter and can't damage it or its crew.
+
 ## 1.2.0
 - Build it: the helicopter is in the Build menu on a VEHICLES tab (shared with the Tank mod). BUILD takes Iron Plate 80, Metal Component 30, Copper Tube 15, Iron Wire 25 and Copper Wire 20 from what you carry and the helicopter lands in front of you.
 - Rockets can be crafted: 84mm HE Round x2 at a workbench from Gunpowder 6, Iron Plate 2, Copper Tube 1, Metal Component 1 (if the game has no recipe of its own).

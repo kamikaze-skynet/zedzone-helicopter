@@ -263,7 +263,10 @@ internal static partial class Heli
 			float h = a.Heading * ((float)Math.PI / 180f);
 			d = new Vector2(Mathf.Cos(h), Mathf.Sin(h)) * 3f;
 		}
-		Vector2 target = muzzle + d;
+		// Start the rocket clear of the helicopter's body, in the direction it flies.
+		Vector2 dir = d.normalized;
+		muzzle += dir * 2.5f;
+		Vector2 target = muzzle + dir * Mathf.Max(1f, d.magnitude - 2.5f);
 		if (HeliRockets.Launch(pc, muzzle, target))
 		{
 			HeliAudio.Rocket(muzzle);

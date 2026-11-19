@@ -143,7 +143,52 @@ internal static class HeliSafety
 			if (dh != null) { h.Patch(dh, new HarmonyMethod(typeof(HeliSafety), nameof(DirectPre)), new HarmonyMethod(typeof(HeliSafety), nameof(Post))); ok++; }
 		}
 		catch (Exception e) { HeliPlugin.L.LogWarning("rocket safety (direct): " + e.Message); }
+		try
+		{
+			var imp = AccessTools.Method(typeof(RecoillessRound), nameof(RecoillessRound.IsValidImpact));
+			if (imp != null) { h.Patch(imp, new HarmonyMethod(typeof(HeliSafety), nameof(ImpactPre))); ok++; }
+		}
+		catch (Exception e) { HeliPlugin.L.LogWarning("rocket safety (impact): " + e.Message); }
+		try
+		{
+			var vh = AccessTools.Method(typeof(BasicVehicle), nameof(BasicVehicle.OnHit));
+			if (vh != null) { h.Patch(vh, new HarmonyMethod(typeof(HeliSafety), nameof(VehicleHitPre))); ok++; }
+		}
+		catch (Exception e) { HeliPlugin.L.LogWarning("rocket safety (vehicle): " + e.Message); }
 		return ok;
+	}
+
+	// Our rockets fly straight through the helicopter that fired them (and its crew).
+	private static bool ImpactPre(RecoillessRound __instance, Collider2D col, ref bool __result)
+	{
+		try
+		{
+			if ((Object)(object)__instance == (Object)null || (Object)(object)col == (Object)null || !_ours.Contains(((Il2CppObjectBase)__instance).Pointer)) return true;
+			BasicVehicle v = ((Component)col).GetComponentInParent<BasicVehicle>();
+			if ((Object)(object)v != (Object)null && Heli.IsHeli(v)) { __result = false; return false; }
+			HumanCharacterController hc = ((Component)col).GetComponentInParent<HumanCharacterController>();
+			if ((Object)(object)hc != (Object)null && Heli.InOrByHeli(hc)) { __result = false; return false; }
+		}
+		catch { }
+		return true;
+	}
+
+	// Our own blasts, or anything the crew does, never damage the helicopter.
+	private static bool VehicleHitPre(BasicVehicle __instance, BasicCharacterController attacker)
+	{
+		try
+		{
+			if (!Heli.IsHeli(__instance)) return true;
+			if (_active) return false;
+			HumanCharacterController hc = (attacker != null) ? attacker.TryCast<HumanCharacterController>() : null;
+			if ((Object)(object)hc != (Object)null && Heli.InOrByHeli(hc))
+			{
+				if (_logged++ < 5) Report.Note("HELI damage to the helicopter from its own crew was blocked");
+				return false;
+			}
+		}
+		catch { }
+		return true;
 	}
 
 	internal static void Mark(RecoillessRound rr)
@@ -172,6 +217,12 @@ internal static class HeliSafety
 			var it = __instance.TryCast<BasicExplosion._ExplodeDamage_d__69>();
 			BasicExplosion ex = it?.__4__this;
 			if ((Object)(object)ex == (Object)null) return;
+			try
+			{
+				HumanCharacterController who = ex.instigator?.TryCast<HumanCharacterController>();
+				if ((Object)(object)who != (Object)null && Heli.InOrByHeli(who)) { _active = true; return; }
+			}
+			catch { }
 			Vector2 p = ((Component)ex).transform.position;
 			float now = Time.time;
 			foreach (Vector3 b in _blasts)
