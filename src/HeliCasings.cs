@@ -54,7 +54,64 @@ internal static class HeliCasings
 		HeliPlugin.L.LogInfo(sb.ToString());
 	}
 
+	private static bool _rocketDone;
+
+	private static float _rocketRetry;
+
+	// Reloader: 1 Rocket Case + 4 Gunpowder + 1 Iron Plate + 1 Metal Component = 1 84mm HE Round.
+	internal static void CheckRocket()
+	{
+		if (_rocketDone || !HeliPlugin.ReloadRecipes.Value)
+		{
+			return;
+		}
+		float now = Time.realtimeSinceStartup;
+		if (now < _rocketRetry)
+		{
+			return;
+		}
+		_rocketRetry = now + 5f;
+		ItemManager im = ItemManager.instance;
+		if (im == null || im.itemList == null || im.itemList.Count == 0)
+		{
+			return;
+		}
+		int caseId = HeliItems.CaseId();
+		if (caseId <= 0)
+		{
+			if (now > 120f)
+			{
+				_rocketDone = true;
+				HeliPlugin.L.LogWarning("Rocket case item never loaded: no rocket reload recipe");
+			}
+			return;
+		}
+		int round = HeliRockets.AmmoId;
+		if (round <= 0)
+		{
+			HeliRockets.Find();
+			round = HeliRockets.AmmoId;
+			if (round <= 0)
+			{
+				return;
+			}
+		}
+		_rocketDone = true;
+		var sb = new StringBuilder("Rocket case:");
+		AddRecipe(im, round, caseId, 1, new (int, int)[4] { (caseId, 1), (Gunpowder, 4), (IronPlate, 1), (MetalComponent, 1) }, sb);
+		HeliPlugin.L.LogInfo(sb.ToString());
+	}
+
+	private const int IronPlate = 8;
+
+	private const int MetalComponent = 62;
+
 	private static void AddReload(ItemManager im, int round, int brass, StringBuilder sb)
+	{
+		AddRecipe(im, round, brass, 10, new (int, int)[3] { (brass, 10), (Gunpowder, 1), (CopperPlate, 1) }, sb);
+	}
+
+	private static void AddRecipe(ItemManager im, int round, int brass, int output, (int, int)[] parts, StringBuilder sb)
 	{
 		try
 		{
@@ -87,10 +144,10 @@ internal static class HeliCasings
 			}
 			var r = new RecipeData();
 			r.itemId = round;
-			r.outputItemNumber = 10;
+			r.outputItemNumber = output;
 			r.craftPlatform = CraftPlatform.reloader;
 			var list = new Il2CppSystem.Collections.Generic.List<RecipeItemData>();
-			foreach (var (id, num) in new (int, int)[3] { (brass, 10), (Gunpowder, 1), (CopperPlate, 1) })
+			foreach (var (id, num) in parts)
 			{
 				var ri = new RecipeItemData();
 				ri.itemId = id;
@@ -140,6 +197,25 @@ internal static class HeliCasings
 		{
 			return;
 		}
+		GiveId(pc, v, id);
+	}
+
+	// One 84mm Rocket Case back for every rocket fired.
+	internal static void GiveRocketCase(HumanCharacterController pc, BasicVehicle v)
+	{
+		if (!HeliPlugin.ReturnRocketCases.Value)
+		{
+			return;
+		}
+		int id = HeliItems.CaseId();
+		if (id > 0)
+		{
+			GiveId(pc, v, id);
+		}
+	}
+
+	private static void GiveId(HumanCharacterController pc, BasicVehicle v, int id)
+	{
 		try
 		{
 			ItemManager im = ItemManager.instance;

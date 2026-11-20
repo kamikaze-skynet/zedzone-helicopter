@@ -7,7 +7,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
-    <Version>1.4.0</Version>
+    <Version>1.5.0</Version>
     <DebugType>none</DebugType>
     <GenerateDependencyFile>false</GenerateDependencyFile>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
@@ -35,6 +35,7 @@
     <EmbeddedResource Include="art.heli_rotor.png" LogicalName="art.heli_rotor.png" />
     <EmbeddedResource Include="art.heli_minigun.png" LogicalName="art.heli_minigun.png" />
     <EmbeddedResource Include="art.heli_icon.png" LogicalName="art.heli_icon.png" Condition="Exists('art.heli_icon.png')" />
+    <EmbeddedResource Include="items\*.zedmod" LogicalName="items.%(Filename)%(Extension)" WithCulture="false" />
     <EmbeddedResource Include="lang.*.txt" LogicalName="%(Filename)%(Extension)" WithCulture="false" />
   </ItemGroup>
 

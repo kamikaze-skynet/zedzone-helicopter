@@ -271,6 +271,7 @@ internal static partial class Heli
 		{
 			HeliAudio.Rocket(muzzle);
 			HeliNet.Rocket(muzzle, target);
+			HeliCasings.GiveRocketCase(pc, v);
 			try
 			{
 				GameController.instance.PlayerNoise(target, HeliPlugin.HeliNoise.Value, false, true, ((BasicCharacterController)pc).characterData.zLevel, (BasicCharacterController)null);

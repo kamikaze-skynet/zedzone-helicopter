@@ -15,7 +15,7 @@ public class HeliPlugin : BasePlugin
 {
 	public const string Guid = "girthy_mods.zedzone.helicopter";
 
-	public const string Version = "1.4.0";
+	public const string Version = "1.5.0";
 
 	internal const string IndustrialAgeGuid = "zedzone.powerindustry";
 
@@ -48,6 +48,8 @@ public class HeliPlugin : BasePlugin
 	internal static ConfigEntry<bool> ReturnCasings;
 
 	internal static ConfigEntry<bool> ShareShots;
+
+	internal static ConfigEntry<bool> ReturnRocketCases;
 
 	internal static ConfigEntry<bool> ReloadRecipes;
 
@@ -90,6 +92,7 @@ public class HeliPlugin : BasePlugin
 		DoorGuns = Config.Bind("MachineGun", "DoorGunners", true, "Players riding as passengers man the door miniguns (1st passenger left, 2nd right) and aim them with the mouse. The pilot fires them with the right mouse button only while no other player is aboard.");
 		GunSound = Config.Bind("MachineGun", "SoundFromWeapon", "M249", "The door guns use the firing sound of the game gun whose name contains this (for example M249, RPK, GM6 Lynx for a .50 cal). Empty = pick a machine gun automatically.");
 		ShareShots = Config.Bind("Multiplayer", "ShareShots", true, "Show your door gun and rocket shots (tracers and sound) to the other players in co-op, and theirs to you. Everyone needs this mod.");
+		ReturnRocketCases = Config.Bind("Rockets", "ReturnCases", true, "Every rocket fired gives back an empty 84mm Rocket Case, which reloads into a new 84mm HE Round at the reloader.");
 		ReturnCasings = Config.Bind("MachineGun", "ReturnCasings", true, "Every door gun round gives back its spent casing (5.56x45 Shell or 7.62x39 Shell): onto a stack in your bag, else the helicopter's cargo, else a new spot in your bag.");
 		ReloadRecipes = Config.Bind("MachineGun", "ReloadRecipes", true, "If the game (or the Tank mod) has no recipe that reloads 5.56 / 7.62x39 rounds from their casings, add one at the reloader: 10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds. Takes effect after a restart.");
 		Rockets = Config.Bind("Rockets", "Enabled", true, "The pilot fires the rocket pods with the left mouse button (towards the mouse).");
@@ -259,7 +262,9 @@ public class HeliRunner : MonoBehaviour
 		try
 		{
 			HeliBuild.Tick();
+			HeliItems.Tick();
 			HeliCasings.Check();
+			HeliCasings.CheckRocket();
 			HeliNet.Tick();
 		}
 		catch

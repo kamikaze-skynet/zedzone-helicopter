@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0
+- New item: **84mm Rocket Case**. Every rocket you fire gives one back (onto a stack in your bag, else the cargo hold, else a new spot in your bag). Setting `Rockets.ReturnCases`.
+- Reloader recipe: 1 Rocket Case + 4 Gunpowder + 1 Iron Plate + 1 Metal Component = 1 84mm HE Round. New cases are rolled from 2 Iron Plate at the reloader.
+- The item is built into Helicopter.dll, so there is nothing extra to install.
+
 ## 1.4.0
 - Co-op: the other players now see and hear your door gun shots (tracers, flashes and the gun sound) and your rocket launches, and you see theirs. Everyone needs this version. Setting `Multiplayer.ShareShots` turns it off.
 

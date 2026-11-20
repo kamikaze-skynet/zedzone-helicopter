@@ -35,6 +35,9 @@ Copper Tube 15, Iron Wire 25 and Copper Wire 20, taken from what you carry; it l
 Door gun rounds give back their spent casings (5.56x45 Shell / 7.62x39 Shell); reload them at the reloader
 (10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds).
 
+Every rocket gives back an empty 84mm Rocket Case; at the reloader 1 case + 4 Gunpowder + 1 Iron Plate + 1 Metal Component
+make a new 84mm HE Round (new cases: 2 Iron Plate at the reloader).
+
 Co-op: everyone sees and hears each other's door gun and rocket shots (all players need this mod).
 Rockets (84mm HE Round) are crafted at a workbench, 2 at a time, from Gunpowder 6, Iron Plate 2, Copper Tube 1 and Metal Component 1.
 
