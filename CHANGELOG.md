@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1
+- Fixed a tank turning into a helicopter while you drive it with the Tank mod loaded. The helicopter now leaves other mods' vehicles alone, and checks with the Tank mod before it claims a vehicle after a reload.
+
 ## 1.3.0
 - Spent casings come back: every door gun round gives back its 5.56x45 Shell or 7.62x39 Shell (onto a stack in your bag, else the cargo hold, else a new spot in your bag).
 - If nothing reloads those rounds from casings yet (the Tank mod adds the same recipes), the reloader gets one: 10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds.

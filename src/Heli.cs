@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Reflection;
 using System.IO;
 using System.Text;
 using BepInEx;
@@ -1560,7 +1561,15 @@ internal static partial class Heli
 			{
 				continue;
 			}
+			if (OtherModsVehicle(val4, val5))
+			{
+				continue;
+			}
 			Vector2 val6 = VehPos(val4);
+			if (TankSpot(val6) != 0)
+			{
+				continue;
+			}
 			int num2 = Nearest(val6, 2.5f, hashSet2);
 			if (num2 >= 0)
 			{
@@ -1579,6 +1588,59 @@ internal static partial class Heli
 					Report.Note($"HELI 讀檔後重新標記直升機 @{val6.x:0.#},{val6.y:0.#}");
 				}
 			}
+		}
+	}
+
+	// Another mod (the Tank mod uses 88040/88041) has already made this base car its own vehicle.
+	private static bool OtherModsVehicle(BasicVehicle v, VehicleData d)
+	{
+		try
+		{
+			int a = v.vehicleNameTextId;
+			int b = d.vehicleNameTextId;
+			return (a >= 88000 && a < 89000 && a != 88030) || (b >= 88000 && b < 89000 && b != 88030);
+		}
+		catch
+		{
+			return true;
+		}
+	}
+
+	private static MethodInfo _tankSpot;
+
+	private static float _tankSpotLook;
+
+	// 1 = the Tank mod has a tank on record here, -1 = its list isn't loaded yet, 0 = no (or no Tank mod).
+	private static int TankSpot(Vector2 p)
+	{
+		try
+		{
+			if (_tankSpot == null)
+			{
+				if (Time.realtimeSinceStartup < _tankSpotLook)
+				{
+					return 0;
+				}
+				_tankSpotLook = Time.realtimeSinceStartup + 10f;
+				foreach (Assembly asm in AppDomain.CurrentDomain.GetAssemblies())
+				{
+					Type t = asm.GetType("ZedTank.TankApi", false);
+					if (t != null)
+					{
+						_tankSpot = t.GetMethod("TankSpot", BindingFlags.Public | BindingFlags.Static);
+						break;
+					}
+				}
+				if (_tankSpot == null)
+				{
+					return 0;
+				}
+			}
+			return (int)_tankSpot.Invoke(null, new object[] { p.x, p.y });
+		}
+		catch
+		{
+			return 0;
 		}
 	}
 

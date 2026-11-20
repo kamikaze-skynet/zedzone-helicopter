@@ -15,7 +15,7 @@ public class HeliPlugin : BasePlugin
 {
 	public const string Guid = "girthy_mods.zedzone.helicopter";
 
-	public const string Version = "1.3.0";
+	public const string Version = "1.3.1";
 
 	internal const string IndustrialAgeGuid = "zedzone.powerindustry";
 
