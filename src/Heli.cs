@@ -1765,7 +1765,7 @@ internal static partial class Heli
 			return Fail("Helicopter art failed to load (see BepInEx\\LogOutput.log)");
 		}
 		Vector2 here = ((Vector2)(((Component)pc).transform.position));
-		if (HeliNear(here, HeliPlugin.CallRadius.Value))
+		if (!ignoreLimit && HeliNear(here, HeliPlugin.CallRadius.Value))
 		{
 			return Fail(L.T("附近已經有一架直升機了"));
 		}

@@ -2,6 +2,8 @@
 
 ## 1.3.1
 - Fixed a tank turning into a helicopter while you drive it with the Tank mod loaded. The helicopter now leaves other mods' vehicles alone, and checks with the Tank mod before it claims a vehicle after a reload.
+- Building a helicopter from the build menu no longer refuses because another helicopter is parked nearby.
+- Rebuilt for the 19 Nov 2026 game update (spawning failed with "Method not found").
 
 ## 1.3.0
 - Spent casings come back: every door gun round gives back its 5.56x45 Shell or 7.62x39 Shell (onto a stack in your bag, else the cargo hold, else a new spot in your bag).
