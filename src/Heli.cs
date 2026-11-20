@@ -2722,6 +2722,23 @@ internal static partial class Heli
 		{
 		}
 		HeliFx.Shot(muzzle, val2, num2 > 0, heading, alt * 1.8f, _sortLayer);
+		HeliNet.Gun(muzzle, val2, num2 > 0, heading, alt * 1.8f);
+	}
+
+	// Another player's door gun shot (co-op): only the tracer, flash and sound. The hit was
+	// already dealt by the game on their side.
+	internal static void RemoteGun(Vector2 muzzle, Vector2 target, bool hit, float heading, float altOffset)
+	{
+		HeliFx.Shot(muzzle, target, hit, heading, altOffset, _sortLayer);
+		HeliAudio.Gun(muzzle);
+	}
+
+	// Another player's rocket (co-op): the launch sound and a smoke trail to where it was aimed.
+	internal static void RemoteRocket(Vector2 muzzle, Vector2 target)
+	{
+		float h = Mathf.Atan2(target.y - muzzle.y, target.x - muzzle.x) * Mathf.Rad2Deg;
+		HeliFx.Shot(muzzle, target, false, h, 0f, _sortLayer, new Color(1f, 0.6f, 0.2f), false);
+		HeliAudio.Rocket(muzzle);
 	}
 
 	private static void TickFx(float now)

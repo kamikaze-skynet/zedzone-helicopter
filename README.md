@@ -34,6 +34,8 @@ Open the Build menu and go to the **VEHICLES** tab. The UH-1Y Helicopter costs I
 Copper Tube 15, Iron Wire 25 and Copper Wire 20, taken from what you carry; it lands a few tiles in front of you.
 Door gun rounds give back their spent casings (5.56x45 Shell / 7.62x39 Shell); reload them at the reloader
 (10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds).
+
+Co-op: everyone sees and hears each other's door gun and rocket shots (all players need this mod).
 Rockets (84mm HE Round) are crafted at a workbench, 2 at a time, from Gunpowder 6, Iron Plate 2, Copper Tube 1 and Metal Component 1.
 
 ## Settings

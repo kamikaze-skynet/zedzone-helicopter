@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0
+- Co-op: the other players now see and hear your door gun shots (tracers, flashes and the gun sound) and your rocket launches, and you see theirs. Everyone needs this version. Setting `Multiplayer.ShareShots` turns it off.
+
 ## 1.3.1
 - Fixed a tank turning into a helicopter while you drive it with the Tank mod loaded. The helicopter now leaves other mods' vehicles alone, and checks with the Tank mod before it claims a vehicle after a reload.
 - Building a helicopter from the build menu no longer refuses because another helicopter is parked nearby.

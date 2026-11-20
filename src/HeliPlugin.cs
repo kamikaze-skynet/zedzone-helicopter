@@ -15,7 +15,7 @@ public class HeliPlugin : BasePlugin
 {
 	public const string Guid = "girthy_mods.zedzone.helicopter";
 
-	public const string Version = "1.3.1";
+	public const string Version = "1.4.0";
 
 	internal const string IndustrialAgeGuid = "zedzone.powerindustry";
 
@@ -46,6 +46,8 @@ public class HeliPlugin : BasePlugin
 	internal static ConfigEntry<string> GunSound;
 
 	internal static ConfigEntry<bool> ReturnCasings;
+
+	internal static ConfigEntry<bool> ShareShots;
 
 	internal static ConfigEntry<bool> ReloadRecipes;
 
@@ -87,6 +89,7 @@ public class HeliPlugin : BasePlugin
 		HeliGunRate = Config.Bind("MachineGun", "RoundsPerSecond", 8f, "Machine gun fire rate.");
 		DoorGuns = Config.Bind("MachineGun", "DoorGunners", true, "Players riding as passengers man the door miniguns (1st passenger left, 2nd right) and aim them with the mouse. The pilot fires them with the right mouse button only while no other player is aboard.");
 		GunSound = Config.Bind("MachineGun", "SoundFromWeapon", "M249", "The door guns use the firing sound of the game gun whose name contains this (for example M249, RPK, GM6 Lynx for a .50 cal). Empty = pick a machine gun automatically.");
+		ShareShots = Config.Bind("Multiplayer", "ShareShots", true, "Show your door gun and rocket shots (tracers and sound) to the other players in co-op, and theirs to you. Everyone needs this mod.");
 		ReturnCasings = Config.Bind("MachineGun", "ReturnCasings", true, "Every door gun round gives back its spent casing (5.56x45 Shell or 7.62x39 Shell): onto a stack in your bag, else the helicopter's cargo, else a new spot in your bag.");
 		ReloadRecipes = Config.Bind("MachineGun", "ReloadRecipes", true, "If the game (or the Tank mod) has no recipe that reloads 5.56 / 7.62x39 rounds from their casings, add one at the reloader: 10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds. Takes effect after a restart.");
 		Rockets = Config.Bind("Rockets", "Enabled", true, "The pilot fires the rocket pods with the left mouse button (towards the mouse).");
@@ -137,6 +140,9 @@ public class HeliPlugin : BasePlugin
 			typeof(P_HeliFixed),
 			typeof(P_HeliDriving),
 			typeof(P_HeliSafety),
+			typeof(P_HeliNetAppend),
+			typeof(P_HeliNetHost),
+			typeof(P_HeliNetClient),
 			typeof(P_HeliNoExit1),
 			typeof(P_HeliNoExit2),
 			typeof(P_HeliInspect),
@@ -254,6 +260,7 @@ public class HeliRunner : MonoBehaviour
 		{
 			HeliBuild.Tick();
 			HeliCasings.Check();
+			HeliNet.Tick();
 		}
 		catch
 		{

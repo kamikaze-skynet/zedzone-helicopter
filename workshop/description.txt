@@ -10,6 +10,7 @@ A flyable UH-1Y style helicopter with rocket pods and door guns. No power grid o
 [*][b]Rocket pods[/b]: the pilot holds left mouse to fire rockets towards the mouse. Each uses one 84mm HE Round from the cargo hold or your backpack.
 [*][b]Door miniguns[/b]: the first player riding as a passenger mans the left gun, the second the right gun. Aim with the mouse, hold left mouse to fire. With nobody else aboard, the pilot fires the gun on the mouse side with right mouse.
 [*]Ammo: 5.56mm or 7.62x39mm from the cargo hold or your backpack. Spent casings come back to you: reload them at the reloader (10 casings + 1 Gunpowder + 1 Copper Plate = 10 rounds).
+[*]Co-op: everyone sees and hears each other's door gun and rocket shots (all players need this mod).
 [/list]
 It runs on gasoline. [b]Shift+Home[/b] next to it pours the gasoline cans you carry into the tank. Turning the engine off in the air brings it down.
 Build one in the Build menu's VEHICLES tab (Iron Plate 80, Metal Component 30, Copper Tube 15, Iron Wire 25, Copper Wire 20). Craft rockets at a workbench (2 x 84mm HE Round from Gunpowder 6, Iron Plate 2, Copper Tube 1, Metal Component 1).
