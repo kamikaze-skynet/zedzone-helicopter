@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1
+- Fixed for the 22 Nov 2026 game update (1.0.22): the game renamed its explosion routine, so the hook that keeps your own rockets from hitting the helicopter and its crew stopped working. The rockets could damage or wreck the helicopter you were flying. It is now found by name, so future game updates don't break it again. If it ever can't be found, rockets that just went off nearby still can't hurt the helicopter or crew.
+- A wrecked helicopter can no longer trap you inside while it is still marked as flying: you can always get out.
+
 ## 1.5.0
 - New item: **84mm Rocket Case**. Every rocket you fire gives one back (onto a stack in your bag, else the cargo hold, else a new spot in your bag). Setting `Rockets.ReturnCases`.
 - Reloader recipe: 1 Rocket Case + 4 Gunpowder + 1 Iron Plate + 1 Metal Component = 1 84mm HE Round. New cases are rolled from 2 Iron Plate at the reloader.
