@@ -239,6 +239,8 @@ internal static partial class Heli
 			BasicVehicle drivingVehicle = h.drivingVehicle;
 			if ((Object)(object)drivingVehicle != (Object)null && Airborne(drivingVehicle))
 			{
+				// a wrecked helicopter must never trap the crew inside
+				try { if (drivingVehicle.vehicleBodyWorkHP <= 0f) { ForceLand(drivingVehicle); return true; } } catch { }
 				if (((BasicCharacterController)h).isPlayer)
 				{
 					Msg(L.T("空中不能下機，先按空白鍵降落"));

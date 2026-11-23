@@ -114,15 +114,25 @@ internal static class HeliSafety
 	private static readonly List<Vector3> _blasts = new List<Vector3>();
 	private static readonly HashSet<IntPtr> _ours = new HashSet<IntPtr>();
 	private static int _logged;
+	private static bool _blastHook;
+
+	// Without the blast hook: one of our rockets went off near here in the last moment.
+	private static bool RecentBlastNear(Vector2 p)
+	{
+		float now = Time.time;
+		foreach (Vector3 b in _blasts)
+			if (now - b.z < 1.5f && ((Vector2)b - p).sqrMagnitude < 64f) return true;
+		return false;
+	}
 
 	internal static int Patch(Harmony h)
 	{
 		int ok = 0;
 		try
 		{
-			var it = typeof(BasicExplosion).GetNestedType("_ExplodeDamage_d__69");
-			var mn = it == null ? null : AccessTools.Method(it, "MoveNext");
-			if (mn != null) { h.Patch(mn, new HarmonyMethod(typeof(HeliSafety), nameof(MoveNextPre)), new HarmonyMethod(typeof(HeliSafety), nameof(Post))); ok++; }
+			var mn = ExplodeCo.MoveNext();
+			if (mn != null) { h.Patch(mn, new HarmonyMethod(typeof(HeliSafety), nameof(MoveNextPre)), new HarmonyMethod(typeof(HeliSafety), nameof(Post))); ok++; _blastHook = true; HeliPlugin.L.LogInfo("rocket safety: blast hook on " + ExplodeCo.Type.Name); }
+			else HeliPlugin.L.LogWarning("rocket safety: ExplodeDamage coroutine not found (using the detonation time instead)");
 		}
 		catch (Exception e) { HeliPlugin.L.LogWarning("rocket safety (blast): " + e.Message); }
 		try
@@ -180,6 +190,7 @@ internal static class HeliSafety
 		{
 			if (!Heli.IsHeli(__instance)) return true;
 			if (_active) return false;
+			if (!_blastHook && RecentBlastNear(((Component)__instance).transform.position)) return false;
 			HumanCharacterController hc = (attacker != null) ? attacker.TryCast<HumanCharacterController>() : null;
 			if ((Object)(object)hc != (Object)null && Heli.InOrByHeli(hc))
 			{
@@ -214,8 +225,7 @@ internal static class HeliSafety
 		_active = false;
 		try
 		{
-			var it = __instance.TryCast<BasicExplosion._ExplodeDamage_d__69>();
-			BasicExplosion ex = it?.__4__this;
+			BasicExplosion ex = ExplodeCo.Owner(__instance);
 			if ((Object)(object)ex == (Object)null) return;
 			try
 			{
@@ -246,7 +256,9 @@ internal static class HeliSafety
 
 	private static bool OnHitPre(HumanCharacterController __instance, ref bool __result)
 	{
-		if (!_active || !Heli.InOrByHeli(__instance)) return true;
+		bool ours = _active;
+		if (!ours && !_blastHook) { try { ours = RecentBlastNear(((Component)__instance).transform.position); } catch { } }
+		if (!ours || !Heli.InOrByHeli(__instance)) return true;
 		if (_logged++ < 5) Report.Note("HELI a rocket hit on the helicopter crew was blocked");
 		__result = false;
 		return false;

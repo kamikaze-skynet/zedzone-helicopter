@@ -1,6 +1,6 @@
 {
     "name": "Helicopter",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "author": "girthy_mods",
     "description": "A flyable UH-1Y style helicopter with a door gun. Press Home to call one in.",
     "enabled": true
